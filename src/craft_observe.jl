@@ -7,10 +7,7 @@ export save_pattern
 
 """
 """
-function save_pattern(
-    average_pattern::PatternStatesData, mc_data::MonteCraftData,
-    i_T::Int, T::Float64
-)
+function save_pattern(mc_data::MonteCraftData, i_T::Int)
     # TODO make the save pattern function work!
 end
 

@@ -1,29 +1,29 @@
 [random]
-seed = 137
+seed = 1370
 
 [temperature]
 start = 720
-end = 15
+end = 20
 decay_method = "linear" # ["linear", "log"] 
 decay = -15
 
 [playground]
-x_size = 100
-y_size = 100
-z_size = 100
+x_size = 20
+y_size = 20
+z_size = 20
 init_mode = "random" # ["random", "zero"]
 dead_cell_quantity = 0
 dead_cell_periodic_size = [10, 10, 10]
 
 [evolution]
-steps_each_temperature = 20000000
-steps_observe_interval = 500
-steps_preheat = 10000
+steps_each_temperature = 80000
+steps_observe_interval = 16
+steps_preheat = 500
 
 [energy]
 Js = [-0.01928778, ]
 Ds = [0.0, ]
-E_ext = [0.0, 1.0,1.0,1.0]
+E_ext = [0.0, 1.0, 1.0, 1.0]
 available_states = [
     [1, 1, 1], [-1, 1, 1], [1,-1, 1], [1, 1, -1],
     [-1,-1,1], [-1, 1,-1], [1,-1,-1], [-1,-1,-1]

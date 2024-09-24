@@ -21,7 +21,6 @@ const NORM_NN = NEAREST_NEIGHBORS
 function evoluate_under_T(pattern::PatternData, T::Float64, config::Dict)
     Δ_energy = 0.0
     succeed_updates = 0
-    observe_patterns_quantity = 0
     average_Δ_energy = 0.0
     average_pattern = zeros(config["playground"]["_state_pattern_shape"])
     preheat_steps = config["evolution"]["steps_preheat"]
@@ -41,16 +40,17 @@ function evoluate_under_T(pattern::PatternData, T::Float64, config::Dict)
         succeed_updates += update_succeed
         # Observe the pattern
         if (0 == i_evlouate%config["evolution"]["steps_observe_interval"])
-            average_pattern, average_Δ_energy, observe_patterns_quantity =
-                update_average_pattern(
-                    average_pattern, average_Δ_energy, 
-                    observe_patterns_quantity, pattern, Δ_energy, config
+            average_pattern, average_Δ_energy = update_average_pattern(
+                    average_pattern, average_Δ_energy, pattern, Δ_energy, config
                 )
         end
     end
     # Return the result
-    average_Δ_energy /= length(pattern)
-    Δ_energy /= length(pattern)
+    pattern_size = config["playground"]["_pattern_size"]
+    observe_quantity = config["evolution"]["_observe_quantity"]
+    Δ_energy /= pattern_size
+    average_pattern /= observe_quantity
+    average_Δ_energy /= (pattern_size * observe_quantity)
     return pattern, Δ_energy, average_pattern, average_Δ_energy, succeed_updates
 end
 
@@ -106,10 +106,8 @@ function calc_δ_energy(
     pattern::PatternData, coord::Tuple, new_state::Int, config::Dict
 )::Float64
     δ_energy = 0.0
-    δ_energy += 
-        calc_nearest_neighbors_energy(pattern, coord, new_state, config)
-    δ_energy += 
-        calc_nearest_dead_neighbor_energy(pattern, coord, new_state, config)
+    δ_energy += calc_nearest_neighbors_energy(pattern, coord, new_state, config)
+    δ_energy += calc_nearest_dead_neighbor_energy(pattern, coord, new_state, config)
     δ_energy += calc_external_E_energy(pattern, coord, new_state, config)
     return δ_energy
 end
@@ -152,6 +150,9 @@ end
 function calc_nearest_dead_neighbor_energy(
     pattern::PatternData, coord::Tuple, new_state::Int, config::Dict
 )::Float64
+    if config["playground"]["dead_cell_quantity"] <= 0
+        return 0.0
+    end
     # Old state
     old_state = pattern[coord...]
     nearest_coords = get_nearby_coord(coord, NORM_NN, size(pattern))
@@ -180,6 +181,9 @@ end
 function calc_external_E_energy(
     pattern::PatternData, coord::Tuple, new_state::Int, config::Dict
 )::Float64
+    if config["energy"]["E_ext"][1] < eps()
+        return 0.0
+    end 
     # Electrostatic field
     old_state = pattern[coord...]
     E_ext = config["energy"]["E_ext"]
@@ -191,7 +195,7 @@ function calc_external_E_energy(
     new_state_vec = available_states[new_state,:]
     # External electric field part
     state_vec_change = new_state_vec - old_state_vec
-    δ_energy = E_ext_val * dot(state_vec_change, E_ext_vec)
+    δ_energy = -E_ext_val * dot(state_vec_change, E_ext_vec)
     #
     return δ_energy
 end
@@ -226,15 +230,12 @@ end
 """
 function update_average_pattern(
     average_pattern::PatternStatesData, average_Δ_energy::Float64, 
-    observe_patterns_quantity::Int, pattern::PatternData,
-    Δ_energy::Float64, config::Dict
-)
+    pattern::PatternData, Δ_energy::Float64, config::Dict
+)::Tuple{PatternStatesData, Float64}
     available_states = config["energy"]["available_states"]
-    next_observe_patterns_quantity = observe_patterns_quantity + 1
-    curr_pattern = available_states[pattern,:]
-    average_pattern = (average_pattern * observe_patterns_quantity + curr_pattern) / next_observe_patterns_quantity
-    average_Δ_energy = (average_Δ_energy * observe_patterns_quantity + Δ_energy) / next_observe_patterns_quantity
-    return average_pattern, average_Δ_energy, next_observe_patterns_quantity
+    average_pattern += available_states[pattern,:]
+    average_Δ_energy += Δ_energy
+    return average_pattern, average_Δ_energy
 end
 
 

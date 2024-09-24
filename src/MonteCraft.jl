@@ -1,8 +1,9 @@
 module MonteCraft
     include("CONSTANT.jl")
+    include("logging.jl")
+    include("misc.jl")
 
     include("config.jl")
-    include("misc.jl")
 
     include("craft_core.jl")
     include("craft_data.jl")
@@ -16,5 +17,9 @@ module MonteCraft
 
     using .Craft
     export evolution
+
+    function __init__()
+        decorate_logging(; min_level=Info)
+    end
 
 end # module MonteCraft
