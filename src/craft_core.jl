@@ -2,6 +2,7 @@ module CraftCore
 
 using Random
 using LinearAlgebra: dot
+using ProgressBars
 
 using ..MonteCraft
 
@@ -23,15 +24,17 @@ function evoluate_under_T(pattern::PatternData, T::Float64, config::Dict)
     observe_patterns_quantity = 0
     average_Δ_energy = 0.0
     average_pattern = zeros(config["playground"]["_state_pattern_shape"])
+    preheat_steps = config["evolution"]["steps_preheat"]
+    evoluate_steps = config["evolution"]["steps_each_temperature"]
     # Preheat the system
-    for _ in 1:config["evolution"]["steps_preheat"]
+    for _ in 1:preheat_steps
         pattern, δ_energy, update_succeed = 
             evoluate_one_step_under_T(pattern, T, config)
         Δ_energy += δ_energy
         succeed_updates += update_succeed
     end
     # Evoluate the system
-    for i_evlouate in 1:config["evolution"]["steps_each_temperature"]
+    for i_evlouate in ProgressBar(1:evoluate_steps)
         pattern, δ_energy, update_succeed = 
             evoluate_one_step_under_T(pattern, T, config)
         Δ_energy += δ_energy

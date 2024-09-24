@@ -2,10 +2,10 @@
 seed = 137
 
 [temperature]
-start = 720
-end = 15
+start = 1000
+end = 5
 decay_method = "linear" # ["linear", "log"] 
-decay = -15
+decay = -5
 
 [playground]
 x_size = 100
