@@ -1,0 +1,1005 @@
+[info] (1/201) T: 1000.0 K
+[info] Succeed-Steps / All-Steps : 86144 / 105000
+[info] Current Energy Decay : -0.004229140868033667 eV/cell
+[info] Current Total Energy : -0.004229140868033667 eV/cell
+[info] Time Cost: 5.45 s
+[info] (2/201) T: 995.0 K
+[info] Succeed-Steps / All-Steps : 85738 / 105000
+[info] Current Energy Decay : -0.00042166880343399543 eV/cell
+[info] Current Total Energy : -0.004411024633434005 eV/cell
+[info] Time Cost: 2.5 s
+[info] (3/201) T: 990.0 K
+[info] Succeed-Steps / All-Steps : 85668 / 105000
+[info] Current Energy Decay : -0.00026634238231599926 eV/cell
+[info] Current Total Energy : -0.00452894176231601 eV/cell
+[info] Time Cost: 2.53 s
+[info] (4/201) T: 985.0 K
+[info] Succeed-Steps / All-Steps : 86039 / 105000
+[info] Current Energy Decay : 0.00010910711390400085 eV/cell
+[info] Current Total Energy : -0.0043335115460960095 eV/cell
+[info] Time Cost: 2.51 s
+[info] (5/201) T: 980.0 K
+[info] Succeed-Steps / All-Steps : 85750 / 105000
+[info] Current Energy Decay : -0.00045383117658399653 eV/cell
+[info] Current Total Energy : -0.004394967556584005 eV/cell
+[info] Time Cost: 2.55 s
+[info] (6/201) T: 975.0 K
+[info] Succeed-Steps / All-Steps : 85612 / 105000
+[info] Current Energy Decay : -8.043068552600143e-5 eV/cell
+[info] Current Total Energy : -0.00444589822552601 eV/cell
+[info] Time Cost: 2.55 s
+[info] (7/201) T: 970.0 K
+[info] Succeed-Steps / All-Steps : 85135 / 105000
+[info] Current Energy Decay : -0.00014545300653600053 eV/cell
+[info] Current Total Energy : -0.00457842777653601 eV/cell
+[info] Time Cost: 2.48 s
+[info] (8/201) T: 965.0 K
+[info] Succeed-Steps / All-Steps : 85134 / 105000
+[info] Current Energy Decay : -0.0002151603293079983 eV/cell
+[info] Current Total Energy : -0.00454848156930801 eV/cell
+[info] Time Cost: 2.52 s
+[info] (9/201) T: 960.0 K
+[info] Succeed-Steps / All-Steps : 85100 / 105000
+[info] Current Energy Decay : -0.0003036160171659997 eV/cell
+[info] Current Total Energy : -0.004653010407166013 eV/cell
+[info] Time Cost: 2.51 s
+[info] (10/201) T: 955.0 K
+[info] Succeed-Steps / All-Steps : 84716 / 105000
+[info] Current Energy Decay : -0.00010052405180399955 eV/cell
+[info] Current Total Energy : -0.004658869391804012 eV/cell
+[info] Time Cost: 2.49 s
+[info] (11/201) T: 950.0 K
+[info] Succeed-Steps / All-Steps : 84611 / 105000
+[info] Current Energy Decay : 8.388255522000087e-6 eV/cell
+[info] Current Total Energy : -0.004662469134478011 eV/cell
+[info] Time Cost: 2.49 s
+[info] (12/201) T: 945.0 K
+[info] Succeed-Steps / All-Steps : 84970 / 105000
+[info] Current Energy Decay : -0.0003010944613940053 eV/cell
+[info] Current Total Energy : -0.0046183425513940165 eV/cell
+[info] Time Cost: 2.51 s
+[info] (13/201) T: 940.0 K
+[info] Succeed-Steps / All-Steps : 84680 / 105000
+[info] Current Energy Decay : -0.00017082415234800013 eV/cell
+[info] Current Total Energy : -0.004677735412348012 eV/cell
+[info] Time Cost: 2.5 s
+[info] (14/201) T: 935.0 K
+[info] Succeed-Steps / All-Steps : 84749 / 105000
+[info] Current Energy Decay : 0.00014262670384000188 eV/cell
+[info] Current Total Energy : -0.004602167176160009 eV/cell
+[info] Time Cost: 2.47 s
+[info] (15/201) T: 930.0 K
+[info] Succeed-Steps / All-Steps : 84254 / 105000
+[info] Current Energy Decay : -0.0003372719074140022 eV/cell
+[info] Current Total Energy : -0.004860256317414013 eV/cell
+[info] Time Cost: 2.47 s
+[info] (16/201) T: 925.0 K
+[info] Succeed-Steps / All-Steps : 84278 / 105000
+[info] Current Energy Decay : 0.0003784757489020019 eV/cell
+[info] Current Total Energy : -0.004781005401098009 eV/cell
+[info] Time Cost: 2.47 s
+[info] (17/201) T: 920.0 K
+[info] Succeed-Steps / All-Steps : 84201 / 105000
+[info] Current Energy Decay : -0.0002701780788320026 eV/cell
+[info] Current Total Energy : -0.004825308788832012 eV/cell
+[info] Time Cost: 2.51 s
+[info] (18/201) T: 915.0 K
+[info] Succeed-Steps / All-Steps : 84168 / 105000
+[info] Current Energy Decay : -0.000150855513714 eV/cell
+[info] Current Total Energy : -0.00479599586371401 eV/cell
+[info] Time Cost: 2.49 s
+[info] (19/201) T: 910.0 K
+[info] Succeed-Steps / All-Steps : 84109 / 105000
+[info] Current Energy Decay : -0.0001730428899740004 eV/cell
+[info] Current Total Energy : -0.004937124549974012 eV/cell
+[info] Time Cost: 2.48 s
+[info] (20/201) T: 905.0 K
+[info] Succeed-Steps / All-Steps : 83630 / 105000
+[info] Current Energy Decay : -0.00010412122277400056 eV/cell
+[info] Current Total Energy : -0.0049582125227740125 eV/cell
+[info] Time Cost: 2.52 s
+[info] (21/201) T: 900.0 K
+[info] Succeed-Steps / All-Steps : 83689 / 105000
+[info] Current Energy Decay : 0.00015199477858599938 eV/cell
+[info] Current Total Energy : -0.005042847301414013 eV/cell
+[info] Time Cost: 2.48 s
+[info] (22/201) T: 895.0 K
+[info] Succeed-Steps / All-Steps : 83922 / 105000
+[info] Current Energy Decay : 0.00022170210135800188 eV/cell
+[info] Current Total Energy : -0.004854198668642011 eV/cell
+[info] Time Cost: 2.5 s
+[info] (23/201) T: 890.0 K
+[info] Succeed-Steps / All-Steps : 83545 / 105000
+[info] Current Energy Decay : -0.0003129358724620003 eV/cell
+[info] Current Total Energy : -0.004974149372462013 eV/cell
+[info] Time Cost: 2.49 s
+[info] (24/201) T: 885.0 K
+[info] Succeed-Steps / All-Steps : 83065 / 105000
+[info] Current Energy Decay : -0.00017402592382800163 eV/cell
+[info] Current Total Energy : -0.005098839083828016 eV/cell
+[info] Time Cost: 2.5 s
+[info] (25/201) T: 880.0 K
+[info] Succeed-Steps / All-Steps : 82948 / 105000
+[info] Current Energy Decay : -0.00021890987373999972 eV/cell
+[info] Current Total Energy : -0.005121220623740014 eV/cell
+[info] Time Cost: 2.44 s
+[info] (26/201) T: 875.0 K
+[info] Succeed-Steps / All-Steps : 82828 / 105000
+[info] Current Energy Decay : 0.0001406477776119992 eV/cell
+[info] Current Total Energy : -0.005095984492388016 eV/cell
+[info] Time Cost: 2.46 s
+[info] (27/201) T: 870.0 K
+[info] Succeed-Steps / All-Steps : 82874 / 105000
+[info] Current Energy Decay : -0.00010142414820399999 eV/cell
+[info] Current Total Energy : -0.005051954348204017 eV/cell
+[info] Time Cost: 2.45 s
+[info] (28/201) T: 865.0 K
+[info] Succeed-Steps / All-Steps : 82845 / 105000
+[info] Current Energy Decay : -7.095074165599915e-5 eV/cell
+[info] Current Total Energy : -0.005243290411656016 eV/cell
+[info] Time Cost: 2.45 s
+[info] (29/201) T: 860.0 K
+[info] Succeed-Steps / All-Steps : 82578 / 105000
+[info] Current Energy Decay : -0.00015366767203800155 eV/cell
+[info] Current Total Energy : -0.005213495292038017 eV/cell
+[info] Time Cost: 2.48 s
+[info] (30/201) T: 855.0 K
+[info] Succeed-Steps / All-Steps : 82640 / 105000
+[info] Current Energy Decay : 0.000349044525400001 eV/cell
+[info] Current Total Energy : -0.005009743684600016 eV/cell
+[info] Time Cost: 2.49 s
+[info] (31/201) T: 850.0 K
+[info] Succeed-Steps / All-Steps : 82416 / 105000
+[info] Current Energy Decay : 0.00010268814072000011 eV/cell
+[info] Current Total Energy : -0.005217524509280017 eV/cell
+[info] Time Cost: 2.54 s
+[info] (32/201) T: 845.0 K
+[info] Succeed-Steps / All-Steps : 82326 / 105000
+[info] Current Energy Decay : -0.00011400556709800076 eV/cell
+[info] Current Total Energy : -0.005295989127098017 eV/cell
+[info] Time Cost: 2.52 s
+[info] (33/201) T: 840.0 K
+[info] Succeed-Steps / All-Steps : 82242 / 105000
+[info] Current Energy Decay : 0.00038610470881800246 eV/cell
+[info] Current Total Energy : -0.0053295074311820135 eV/cell
+[info] Time Cost: 2.5 s
+[info] (34/201) T: 835.0 K
+[info] Succeed-Steps / All-Steps : 82149 / 105000
+[info] Current Energy Decay : 7.66123480119996e-5 eV/cell
+[info] Current Total Energy : -0.005288605121988016 eV/cell
+[info] Time Cost: 2.54 s
+[info] (35/201) T: 830.0 K
+[info] Succeed-Steps / All-Steps : 81962 / 105000
+[info] Current Energy Decay : -0.00021746329024000403 eV/cell
+[info] Current Total Energy : -0.005319081100240021 eV/cell
+[info] Time Cost: 2.48 s
+[info] (36/201) T: 825.0 K
+[info] Succeed-Steps / All-Steps : 81557 / 105000
+[info] Current Energy Decay : -0.00020807914234400077 eV/cell
+[info] Current Total Energy : -0.005418994372344018 eV/cell
+[info] Time Cost: 2.48 s
+[info] (37/201) T: 820.0 K
+[info] Succeed-Steps / All-Steps : 81311 / 105000
+[info] Current Energy Decay : 6.120719812600007e-5 eV/cell
+[info] Current Total Energy : -0.0054936734418740175 eV/cell
+[info] Time Cost: 2.49 s
+[info] (38/201) T: 815.0 K
+[info] Succeed-Steps / All-Steps : 81582 / 105000
+[info] Current Energy Decay : 5.941729214199936e-5 eV/cell
+[info] Current Total Energy : -0.005521180387858017 eV/cell
+[info] Time Cost: 2.53 s
+[info] (39/201) T: 810.0 K
+[info] Succeed-Steps / All-Steps : 81367 / 105000
+[info] Current Energy Decay : -6.99792804700014e-5 eV/cell
+[info] Current Total Energy : -0.0054448406404700184 eV/cell
+[info] Time Cost: 2.48 s
+[info] (40/201) T: 805.0 K
+[info] Succeed-Steps / All-Steps : 81046 / 105000
+[info] Current Energy Decay : -0.0001267682911240008 eV/cell
+[info] Current Total Energy : -0.005559492991124018 eV/cell
+[info] Time Cost: 2.49 s
+[info] (41/201) T: 800.0 K
+[info] Succeed-Steps / All-Steps : 80982 / 105000
+[info] Current Energy Decay : -0.0002548835122179996 eV/cell
+[info] Current Total Energy : -0.005626530242218016 eV/cell
+[info] Time Cost: 2.51 s
+[info] (42/201) T: 795.0 K
+[info] Succeed-Steps / All-Steps : 81094 / 105000
+[info] Current Energy Decay : 0.0004712840457800171 eV/cell
+[info] Current Total Energy : -0.00543399126422 eV/cell
+[info] Time Cost: 2.51 s
+[info] (43/201) T: 790.0 K
+[info] Succeed-Steps / All-Steps : 81017 / 105000
+[info] Current Energy Decay : 3.0731219874000376e-5 eV/cell
+[info] Current Total Energy : -0.005623802950126016 eV/cell
+[info] Time Cost: 2.44 s
+[info] (44/201) T: 785.0 K
+[info] Succeed-Steps / All-Steps : 80296 / 105000
+[info] Current Energy Decay : -0.00018305131901599973 eV/cell
+[info] Current Total Energy : -0.005763648999016015 eV/cell
+[info] Time Cost: 2.49 s
+[info] (45/201) T: 780.0 K
+[info] Succeed-Steps / All-Steps : 80278 / 105000
+[info] Current Energy Decay : -0.00013803749805199993 eV/cell
+[info] Current Total Energy : -0.005770069258052016 eV/cell
+[info] Time Cost: 2.57 s
+[info] (46/201) T: 775.0 K
+[info] Succeed-Steps / All-Steps : 80208 / 105000
+[info] Current Energy Decay : -0.0002091451136520015 eV/cell
+[info] Current Total Energy : -0.005751167233652018 eV/cell
+[info] Time Cost: 2.45 s
+[info] (47/201) T: 770.0 K
+[info] Succeed-Steps / All-Steps : 80174 / 105000
+[info] Current Energy Decay : 0.00024914346889000095 eV/cell
+[info] Current Total Energy : -0.005765429261110015 eV/cell
+[info] Time Cost: 2.49 s
+[info] (48/201) T: 765.0 K
+[info] Succeed-Steps / All-Steps : 80037 / 105000
+[info] Current Energy Decay : -9.413336736399984e-5 eV/cell
+[info] Current Total Energy : -0.005726165127364015 eV/cell
+[info] Time Cost: 2.52 s
+[info] (49/201) T: 760.0 K
+[info] Succeed-Steps / All-Steps : 79777 / 105000
+[info] Current Energy Decay : -3.370475262400036e-5 eV/cell
+[info] Current Total Energy : -0.005977555622624015 eV/cell
+[info] Time Cost: 2.48 s
+[info] (50/201) T: 755.0 K
+[info] Succeed-Steps / All-Steps : 79744 / 105000
+[info] Current Energy Decay : 0.0004224068824820019 eV/cell
+[info] Current Total Energy : -0.005923272737518013 eV/cell
+[info] Time Cost: 2.49 s
+[info] (51/201) T: 750.0 K
+[info] Succeed-Steps / All-Steps : 79170 / 105000
+[info] Current Energy Decay : -0.00034146442785999736 eV/cell
+[info] Current Total Energy : -0.0059831400778600115 eV/cell
+[info] Time Cost: 2.45 s
+[info] (52/201) T: 745.0 K
+[info] Succeed-Steps / All-Steps : 79489 / 105000
+[info] Current Energy Decay : 0.0002799865578880018 eV/cell
+[info] Current Total Energy : -0.005998185832112013 eV/cell
+[info] Time Cost: 2.48 s
+[info] (53/201) T: 740.0 K
+[info] Succeed-Steps / All-Steps : 78850 / 105000
+[info] Current Energy Decay : -0.00013712775776200109 eV/cell
+[info] Current Total Energy : -0.006119554187762015 eV/cell
+[info] Time Cost: 2.53 s
+[info] (54/201) T: 735.0 K
+[info] Succeed-Steps / All-Steps : 78827 / 105000
+[info] Current Energy Decay : -8.422330600009923e-8 eV/cell
+[info] Current Total Energy : -0.0061335982633060155 eV/cell
+[info] Time Cost: 2.57 s
+[info] (55/201) T: 730.0 K
+[info] Succeed-Steps / All-Steps : 78465 / 105000
+[info] Current Energy Decay : -0.0003245580457639995 eV/cell
+[info] Current Total Energy : -0.006072316485764014 eV/cell
+[info] Time Cost: 2.45 s
+[info] (56/201) T: 725.0 K
+[info] Succeed-Steps / All-Steps : 78294 / 105000
+[info] Current Energy Decay : 8.47119297600003e-5 eV/cell
+[info] Current Total Energy : -0.006331689550240014 eV/cell
+[info] Time Cost: 2.45 s
+[info] (57/201) T: 720.0 K
+[info] Succeed-Steps / All-Steps : 78398 / 105000
+[info] Current Energy Decay : -0.00011269528391000005 eV/cell
+[info] Current Total Energy : -0.006162628943910014 eV/cell
+[info] Time Cost: 2.48 s
+[info] (58/201) T: 715.0 K
+[info] Succeed-Steps / All-Steps : 77991 / 105000
+[info] Current Energy Decay : -0.0004193156942739952 eV/cell
+[info] Current Total Energy : -0.006337449524274009 eV/cell
+[info] Time Cost: 2.5 s
+[info] (59/201) T: 710.0 K
+[info] Succeed-Steps / All-Steps : 77661 / 105000
+[info] Current Energy Decay : -5.072236091799947e-5 eV/cell
+[info] Current Total Energy : -0.006438192170918013 eV/cell
+[info] Time Cost: 2.47 s
+[info] (60/201) T: 705.0 K
+[info] Succeed-Steps / All-Steps : 77555 / 105000
+[info] Current Energy Decay : -6.55572354420003e-5 eV/cell
+[info] Current Total Energy : -0.006330871105442013 eV/cell
+[info] Time Cost: 2.51 s
+[info] (61/201) T: 700.0 K
+[info] Succeed-Steps / All-Steps : 77605 / 105000
+[info] Current Energy Decay : -8.422394892600065e-5 eV/cell
+[info] Current Total Energy : -0.006314176888926015 eV/cell
+[info] Time Cost: 2.47 s
+[info] (62/201) T: 695.0 K
+[info] Succeed-Steps / All-Steps : 77123 / 105000
+[info] Current Energy Decay : -0.0003221811483420006 eV/cell
+[info] Current Total Energy : -0.006516773158342016 eV/cell
+[info] Time Cost: 2.52 s
+[info] (63/201) T: 690.0 K
+[info] Succeed-Steps / All-Steps : 77437 / 105000
+[info] Current Energy Decay : -0.00042409649201000294 eV/cell
+[info] Current Total Energy : -0.006339015692010019 eV/cell
+[info] Time Cost: 2.49 s
+[info] (64/201) T: 685.0 K
+[info] Succeed-Steps / All-Steps : 77074 / 105000
+[info] Current Energy Decay : -0.000585450344378013 eV/cell
+[info] Current Total Energy : -0.006545374364378029 eV/cell
+[info] Time Cost: 2.52 s
+[info] (65/201) T: 680.0 K
+[info] Succeed-Steps / All-Steps : 77043 / 105000
+[info] Current Energy Decay : 0.00013272564344000043 eV/cell
+[info] Current Total Energy : -0.006544060866560016 eV/cell
+[info] Time Cost: 2.51 s
+[info] (66/201) T: 675.0 K
+[info] Succeed-Steps / All-Steps : 76541 / 105000
+[info] Current Energy Decay : -0.0003581059244439966 eV/cell
+[info] Current Total Energy : -0.006661995354444012 eV/cell
+[info] Time Cost: 2.51 s
+[info] (67/201) T: 670.0 K
+[info] Succeed-Steps / All-Steps : 76143 / 105000
+[info] Current Energy Decay : -0.00028776017615399907 eV/cell
+[info] Current Total Energy : -0.006768454256154015 eV/cell
+[info] Time Cost: 2.48 s
+[info] (68/201) T: 665.0 K
+[info] Succeed-Steps / All-Steps : 76002 / 105000
+[info] Current Energy Decay : -0.00016516511769600086 eV/cell
+[info] Current Total Energy : -0.006912673487696016 eV/cell
+[info] Time Cost: 2.56 s
+[info] (69/201) T: 660.0 K
+[info] Succeed-Steps / All-Steps : 75466 / 105000
+[info] Current Energy Decay : -0.00042789297004000067 eV/cell
+[info] Current Total Energy : -0.006982523540040016 eV/cell
+[info] Time Cost: 2.46 s
+[info] (70/201) T: 655.0 K
+[info] Succeed-Steps / All-Steps : 75665 / 105000
+[info] Current Energy Decay : -0.00023106503269600126 eV/cell
+[info] Current Total Energy : -0.006936783212696018 eV/cell
+[info] Time Cost: 2.48 s
+[info] (71/201) T: 650.0 K
+[info] Succeed-Steps / All-Steps : 75246 / 105000
+[info] Current Energy Decay : 5.0895308012000304e-5 eV/cell
+[info] Current Total Energy : -0.006979500501988015 eV/cell
+[info] Time Cost: 2.47 s
+[info] (72/201) T: 645.0 K
+[info] Succeed-Steps / All-Steps : 75190 / 105000
+[info] Current Energy Decay : -0.0004717810275779804 eV/cell
+[info] Current Total Energy : -0.006987836037577995 eV/cell
+[info] Time Cost: 2.49 s
+[info] (73/201) T: 640.0 K
+[info] Succeed-Steps / All-Steps : 75040 / 105000
+[info] Current Energy Decay : -0.00021046761243400183 eV/cell
+[info] Current Total Energy : -0.0070158393224340155 eV/cell
+[info] Time Cost: 2.44 s
+[info] (74/201) T: 635.0 K
+[info] Succeed-Steps / All-Steps : 75153 / 105000
+[info] Current Energy Decay : -0.00011949036880400045 eV/cell
+[info] Current Total Energy : -0.007034159498804015 eV/cell
+[info] Time Cost: 2.47 s
+[info] (75/201) T: 630.0 K
+[info] Succeed-Steps / All-Steps : 74261 / 105000
+[info] Current Energy Decay : 1.8180661428000077e-5 eV/cell
+[info] Current Total Energy : -0.007401185378572013 eV/cell
+[info] Time Cost: 2.47 s
+[info] (76/201) T: 625.0 K
+[info] Succeed-Steps / All-Steps : 73753 / 105000
+[info] Current Energy Decay : -0.00047044181271998695 eV/cell
+[info] Current Total Energy : -0.007494408362720001 eV/cell
+[info] Time Cost: 2.44 s
+[info] (77/201) T: 620.0 K
+[info] Succeed-Steps / All-Steps : 73899 / 105000
+[info] Current Energy Decay : 0.00015785312029799878 eV/cell
+[info] Current Total Energy : -0.007325805519702015 eV/cell
+[info] Time Cost: 2.45 s
+[info] (78/201) T: 615.0 K
+[info] Succeed-Steps / All-Steps : 73676 / 105000
+[info] Current Energy Decay : -8.409279202200075e-5 eV/cell
+[info] Current Total Energy : -0.007378088262022015 eV/cell
+[info] Time Cost: 2.51 s
+[info] (79/201) T: 610.0 K
+[info] Succeed-Steps / All-Steps : 73689 / 105000
+[info] Current Energy Decay : -0.00023785690295999727 eV/cell
+[info] Current Total Energy : -0.007374335502960012 eV/cell
+[info] Time Cost: 2.44 s
+[info] (80/201) T: 605.0 K
+[info] Succeed-Steps / All-Steps : 72859 / 105000
+[info] Current Energy Decay : -0.0007947947650899683 eV/cell
+[info] Current Total Energy : -0.007770541865089984 eV/cell
+[info] Time Cost: 2.45 s
+[info] (81/201) T: 600.0 K
+[info] Succeed-Steps / All-Steps : 72520 / 105000
+[info] Current Energy Decay : 7.274064764000143e-6 eV/cell
+[info] Current Total Energy : -0.007746413495236014 eV/cell
+[info] Time Cost: 2.51 s
+[info] (82/201) T: 595.0 K
+[info] Succeed-Steps / All-Steps : 72643 / 105000
+[info] Current Energy Decay : -0.00011989284048000125 eV/cell
+[info] Current Total Energy : -0.007716063530480016 eV/cell
+[info] Time Cost: 2.49 s
+[info] (83/201) T: 590.0 K
+[info] Succeed-Steps / All-Steps : 72244 / 105000
+[info] Current Energy Decay : -0.00021448268530400186 eV/cell
+[info] Current Total Energy : -0.007813868005304016 eV/cell
+[info] Time Cost: 2.47 s
+[info] (84/201) T: 585.0 K
+[info] Succeed-Steps / All-Steps : 72030 / 105000
+[info] Current Energy Decay : -0.00035186632761400146 eV/cell
+[info] Current Total Energy : -0.007948037017614016 eV/cell
+[info] Time Cost: 2.52 s
+[info] (85/201) T: 580.0 K
+[info] Succeed-Steps / All-Steps : 71593 / 105000
+[info] Current Energy Decay : 0.00019603971006799806 eV/cell
+[info] Current Total Energy : -0.007998052159932016 eV/cell
+[info] Time Cost: 2.5 s
+[info] (86/201) T: 575.0 K
+[info] Succeed-Steps / All-Steps : 71697 / 105000
+[info] Current Energy Decay : -0.00030265034231399856 eV/cell
+[info] Current Total Energy : -0.007892391772314013 eV/cell
+[info] Time Cost: 2.49 s
+[info] (87/201) T: 570.0 K
+[info] Succeed-Steps / All-Steps : 71007 / 105000
+[info] Current Energy Decay : -0.0005375452851920109 eV/cell
+[info] Current Total Energy : -0.008194793945192026 eV/cell
+[info] Time Cost: 2.47 s
+[info] (88/201) T: 565.0 K
+[info] Succeed-Steps / All-Steps : 70889 / 105000
+[info] Current Energy Decay : 0.00010947422464999956 eV/cell
+[info] Current Total Energy : -0.008158554135350014 eV/cell
+[info] Time Cost: 2.49 s
+[info] (89/201) T: 560.0 K
+[info] Succeed-Steps / All-Steps : 70401 / 105000
+[info] Current Energy Decay : -2.5000820436001012e-5 eV/cell
+[info] Current Total Energy : -0.008334819370436015 eV/cell
+[info] Time Cost: 2.48 s
+[info] (90/201) T: 555.0 K
+[info] Succeed-Steps / All-Steps : 70276 / 105000
+[info] Current Energy Decay : -5.0939026979998884e-5 eV/cell
+[info] Current Total Energy : -0.008437908696980016 eV/cell
+[info] Time Cost: 2.45 s
+[info] (91/201) T: 550.0 K
+[info] Succeed-Steps / All-Steps : 70004 / 105000
+[info] Current Energy Decay : -0.0001478311898099993 eV/cell
+[info] Current Total Energy : -0.008505869189810012 eV/cell
+[info] Time Cost: 2.47 s
+[info] (92/201) T: 545.0 K
+[info] Succeed-Steps / All-Steps : 69158 / 105000
+[info] Current Energy Decay : -0.00017076178852599918 eV/cell
+[info] Current Total Energy : -0.008692745918526014 eV/cell
+[info] Time Cost: 2.43 s
+[info] (93/201) T: 540.0 K
+[info] Succeed-Steps / All-Steps : 68822 / 105000
+[info] Current Energy Decay : -0.00016180518642000232 eV/cell
+[info] Current Total Energy : -0.008780228216420015 eV/cell
+[info] Time Cost: 2.47 s
+[info] (94/201) T: 535.0 K
+[info] Succeed-Steps / All-Steps : 69069 / 105000
+[info] Current Energy Decay : 0.00021353758408399753 eV/cell
+[info] Current Total Energy : -0.008607407135916016 eV/cell
+[info] Time Cost: 2.45 s
+[info] (95/201) T: 530.0 K
+[info] Succeed-Steps / All-Steps : 68554 / 105000
+[info] Current Energy Decay : -6.636410757200059e-5 eV/cell
+[info] Current Total Energy : -0.008816586967572013 eV/cell
+[info] Time Cost: 2.51 s
+[info] (96/201) T: 525.0 K
+[info] Succeed-Steps / All-Steps : 68022 / 105000
+[info] Current Energy Decay : -0.0003297419581019996 eV/cell
+[info] Current Total Energy : -0.009063891668102014 eV/cell
+[info] Time Cost: 2.45 s
+[info] (97/201) T: 520.0 K
+[info] Succeed-Steps / All-Steps : 68017 / 105000
+[info] Current Energy Decay : 3.523877405999938e-5 eV/cell
+[info] Current Total Energy : -0.008975369115940015 eV/cell
+[info] Time Cost: 2.47 s
+[info] (98/201) T: 515.0 K
+[info] Succeed-Steps / All-Steps : 67072 / 105000
+[info] Current Energy Decay : 0.00013631702807599948 eV/cell
+[info] Current Total Energy : -0.009330768321924015 eV/cell
+[info] Time Cost: 2.48 s
+[info] (99/201) T: 510.0 K
+[info] Succeed-Steps / All-Steps : 66957 / 105000
+[info] Current Energy Decay : -0.00010270742850000066 eV/cell
+[info] Current Total Energy : -0.009293334598500014 eV/cell
+[info] Time Cost: 2.47 s
+[info] (100/201) T: 505.0 K
+[info] Succeed-Steps / All-Steps : 66498 / 105000
+[info] Current Energy Decay : -0.00032428351636199973 eV/cell
+[info] Current Total Energy : -0.009412042526362014 eV/cell
+[info] Time Cost: 2.46 s
+[info] (101/201) T: 500.0 K
+[info] Succeed-Steps / All-Steps : 65997 / 105000
+[info] Current Energy Decay : 0.00023516304302000248 eV/cell
+[info] Current Total Energy : -0.009579102346980011 eV/cell
+[info] Time Cost: 2.5 s
+[info] (102/201) T: 495.0 K
+[info] Succeed-Steps / All-Steps : 66363 / 105000
+[info] Current Energy Decay : -3.610929586399992e-5 eV/cell
+[info] Current Total Energy : -0.009461404455864013 eV/cell
+[info] Time Cost: 2.53 s
+[info] (103/201) T: 490.0 K
+[info] Succeed-Steps / All-Steps : 65317 / 105000
+[info] Current Energy Decay : 2.60712922259998e-5 eV/cell
+[info] Current Total Energy : -0.009723901497774015 eV/cell
+[info] Time Cost: 2.48 s
+[info] (104/201) T: 485.0 K
+[info] Succeed-Steps / All-Steps : 64879 / 105000
+[info] Current Energy Decay : -2.3091973142000237e-5 eV/cell
+[info] Current Total Energy : -0.009972371823142015 eV/cell
+[info] Time Cost: 2.43 s
+[info] (105/201) T: 480.0 K
+[info] Succeed-Steps / All-Steps : 64206 / 105000
+[info] Current Energy Decay : -0.0004514697093860042 eV/cell
+[info] Current Total Energy : -0.010217515649386019 eV/cell
+[info] Time Cost: 2.46 s
+[info] (106/201) T: 475.0 K
+[info] Succeed-Steps / All-Steps : 64047 / 105000
+[info] Current Energy Decay : -0.00010163117037599974 eV/cell
+[info] Current Total Energy : -0.010166637700376013 eV/cell
+[info] Time Cost: 2.46 s
+[info] (107/201) T: 470.0 K
+[info] Succeed-Steps / All-Steps : 64056 / 105000
+[info] Current Energy Decay : -0.0003993676292720029 eV/cell
+[info] Current Total Energy : -0.010110764859272018 eV/cell
+[info] Time Cost: 2.45 s
+[info] (108/201) T: 465.0 K
+[info] Succeed-Steps / All-Steps : 62893 / 105000
+[info] Current Energy Decay : -0.0005816660819420048 eV/cell
+[info] Current Total Energy : -0.010428077771942018 eV/cell
+[info] Time Cost: 2.48 s
+[info] (109/201) T: 460.0 K
+[info] Succeed-Steps / All-Steps : 62570 / 105000
+[info] Current Energy Decay : -1.2412972281999928e-5 eV/cell
+[info] Current Total Energy : -0.010514609182282012 eV/cell
+[info] Time Cost: 2.49 s
+[info] (110/201) T: 455.0 K
+[info] Succeed-Steps / All-Steps : 62068 / 105000
+[info] Current Energy Decay : -0.0005526212569660047 eV/cell
+[info] Current Total Energy : -0.010816934846966018 eV/cell
+[info] Time Cost: 2.45 s
+[info] (111/201) T: 450.0 K
+[info] Succeed-Steps / All-Steps : 61713 / 105000
+[info] Current Energy Decay : 9.293431037399974e-5 eV/cell
+[info] Current Total Energy : -0.010843236949626012 eV/cell
+[info] Time Cost: 2.48 s
+[info] (112/201) T: 445.0 K
+[info] Succeed-Steps / All-Steps : 60886 / 105000
+[info] Current Energy Decay : -7.755166289800042e-5 eV/cell
+[info] Current Total Energy : -0.010988005882898014 eV/cell
+[info] Time Cost: 2.45 s
+[info] (113/201) T: 440.0 K
+[info] Succeed-Steps / All-Steps : 60597 / 105000
+[info] Current Energy Decay : -0.0003803749523059968 eV/cell
+[info] Current Total Energy : -0.011094736742306011 eV/cell
+[info] Time Cost: 2.46 s
+[info] (114/201) T: 435.0 K
+[info] Succeed-Steps / All-Steps : 59939 / 105000
+[info] Current Energy Decay : -4.582519357600024e-5 eV/cell
+[info] Current Total Energy : -0.011403112983576012 eV/cell
+[info] Time Cost: 2.47 s
+[info] (115/201) T: 430.0 K
+[info] Succeed-Steps / All-Steps : 59747 / 105000
+[info] Current Energy Decay : -0.0005937961667840114 eV/cell
+[info] Current Total Energy : -0.011439957786784024 eV/cell
+[info] Time Cost: 2.44 s
+[info] (116/201) T: 425.0 K
+[info] Succeed-Steps / All-Steps : 58552 / 105000
+[info] Current Energy Decay : -0.00040970073594400163 eV/cell
+[info] Current Total Energy : -0.012030588185944014 eV/cell
+[info] Time Cost: 2.44 s
+[info] (117/201) T: 420.0 K
+[info] Succeed-Steps / All-Steps : 58162 / 105000
+[info] Current Energy Decay : -0.00031501123758999626 eV/cell
+[info] Current Total Energy : -0.01207734240759001 eV/cell
+[info] Time Cost: 2.48 s
+[info] (118/201) T: 415.0 K
+[info] Succeed-Steps / All-Steps : 57476 / 105000
+[info] Current Energy Decay : -5.516305079999996e-5 eV/cell
+[info] Current Total Energy : -0.012119669440800014 eV/cell
+[info] Time Cost: 2.44 s
+[info] (119/201) T: 410.0 K
+[info] Succeed-Steps / All-Steps : 57028 / 105000
+[info] Current Energy Decay : -0.00030731927092599867 eV/cell
+[info] Current Total Energy : -0.012339679360926014 eV/cell
+[info] Time Cost: 2.45 s
+[info] (120/201) T: 405.0 K
+[info] Succeed-Steps / All-Steps : 56363 / 105000
+[info] Current Energy Decay : 2.589127294599957e-5 eV/cell
+[info] Current Total Energy : -0.012601175367054017 eV/cell
+[info] Time Cost: 2.47 s
+[info] (121/201) T: 400.0 K
+[info] Succeed-Steps / All-Steps : 55409 / 105000
+[info] Current Energy Decay : -0.0004402403638699917 eV/cell
+[info] Current Total Energy : -0.013028731443870007 eV/cell
+[info] Time Cost: 2.52 s
+[info] (122/201) T: 395.0 K
+[info] Succeed-Steps / All-Steps : 54532 / 105000
+[info] Current Energy Decay : -0.0002550551734599998 eV/cell
+[info] Current Total Energy : -0.013293594453460017 eV/cell
+[info] Time Cost: 2.44 s
+[info] (123/201) T: 390.0 K
+[info] Succeed-Steps / All-Steps : 53658 / 105000
+[info] Current Energy Decay : -0.00023154658426999814 eV/cell
+[info] Current Total Energy : -0.013597978124270015 eV/cell
+[info] Time Cost: 2.48 s
+[info] (124/201) T: 385.0 K
+[info] Succeed-Steps / All-Steps : 52957 / 105000
+[info] Current Energy Decay : -0.0008218690218759981 eV/cell
+[info] Current Total Energy : -0.013866837561876016 eV/cell
+[info] Time Cost: 2.46 s
+[info] (125/201) T: 380.0 K
+[info] Succeed-Steps / All-Steps : 52642 / 105000
+[info] Current Energy Decay : -0.0002495870878299995 eV/cell
+[info] Current Total Energy : -0.014075710717830016 eV/cell
+[info] Time Cost: 2.46 s
+[info] (126/201) T: 375.0 K
+[info] Succeed-Steps / All-Steps : 50771 / 105000
+[info] Current Energy Decay : -0.0005981127719480048 eV/cell
+[info] Current Total Energy : -0.01477141644194802 eV/cell
+[info] Time Cost: 2.52 s
+[info] (127/201) T: 370.0 K
+[info] Succeed-Steps / All-Steps : 50181 / 105000
+[info] Current Energy Decay : -0.0005178151721040017 eV/cell
+[info] Current Total Energy : -0.014954718502104017 eV/cell
+[info] Time Cost: 2.51 s
+[info] (128/201) T: 365.0 K
+[info] Succeed-Steps / All-Steps : 48835 / 105000
+[info] Current Energy Decay : -0.0005846132547260113 eV/cell
+[info] Current Total Energy : -0.015613008504726026 eV/cell
+[info] Time Cost: 2.5 s
+[info] (129/201) T: 360.0 K
+[info] Succeed-Steps / All-Steps : 48774 / 105000
+[info] Current Energy Decay : -0.0005102305740820028 eV/cell
+[info] Current Total Energy : -0.015413255254082018 eV/cell
+[info] Time Cost: 2.43 s
+[info] (130/201) T: 355.0 K
+[info] Succeed-Steps / All-Steps : 47922 / 105000
+[info] Current Energy Decay : -0.000118967669966 eV/cell
+[info] Current Total Energy : -0.015902800969966015 eV/cell
+[info] Time Cost: 2.47 s
+[info] (131/201) T: 350.0 K
+[info] Succeed-Steps / All-Steps : 46383 / 105000
+[info] Current Energy Decay : -5.7620313971999936e-5 eV/cell
+[info] Current Total Energy : -0.016590462403972012 eV/cell
+[info] Time Cost: 2.47 s
+[info] (132/201) T: 345.0 K
+[info] Succeed-Steps / All-Steps : 45272 / 105000
+[info] Current Energy Decay : -0.0002149809529540009 eV/cell
+[info] Current Total Energy : -0.016947130102954015 eV/cell
+[info] Time Cost: 2.49 s
+[info] (133/201) T: 340.0 K
+[info] Succeed-Steps / All-Steps : 44895 / 105000
+[info] Current Energy Decay : -0.0002134642905199988 eV/cell
+[info] Current Total Energy : -0.017241359400520014 eV/cell
+[info] Time Cost: 2.53 s
+[info] (134/201) T: 335.0 K
+[info] Succeed-Steps / All-Steps : 43912 / 105000
+[info] Current Energy Decay : 0.00030674128045200035 eV/cell
+[info] Current Total Energy : -0.017679113569548013 eV/cell
+[info] Time Cost: 2.49 s
+[info] (135/201) T: 330.0 K
+[info] Succeed-Steps / All-Steps : 42156 / 105000
+[info] Current Energy Decay : -0.0008796789990179946 eV/cell
+[info] Current Total Energy : -0.01854085621901801 eV/cell
+[info] Time Cost: 2.52 s
+[info] (136/201) T: 325.0 K
+[info] Succeed-Steps / All-Steps : 39959 / 105000
+[info] Current Energy Decay : -0.000361797605536 eV/cell
+[info] Current Total Energy : -0.019681723905536012 eV/cell
+[info] Time Cost: 2.46 s
+[info] (137/201) T: 320.0 K
+[info] Succeed-Steps / All-Steps : 38443 / 105000
+[info] Current Energy Decay : -0.0009308559086179524 eV/cell
+[info] Current Total Energy : -0.020321504068617966 eV/cell
+[info] Time Cost: 2.48 s
+[info] (138/201) T: 315.0 K
+[info] Succeed-Steps / All-Steps : 37037 / 105000
+[info] Current Energy Decay : -0.0008250521485020031 eV/cell
+[info] Current Total Energy : -0.021456547488502016 eV/cell
+[info] Time Cost: 2.47 s
+[info] (139/201) T: 310.0 K
+[info] Succeed-Steps / All-Steps : 35267 / 105000
+[info] Current Energy Decay : -0.00022154715619200047 eV/cell
+[info] Current Total Energy : -0.022280338216192012 eV/cell
+[info] Time Cost: 2.48 s
+[info] (140/201) T: 305.0 K
+[info] Succeed-Steps / All-Steps : 32729 / 105000
+[info] Current Energy Decay : -0.0009070303569100139 eV/cell
+[info] Current Total Energy : -0.023968785976910028 eV/cell
+[info] Time Cost: 2.47 s
+[info] (141/201) T: 300.0 K
+[info] Succeed-Steps / All-Steps : 30662 / 105000
+[info] Current Energy Decay : -0.0002899679840380067 eV/cell
+[info] Current Total Energy : -0.025309433274038017 eV/cell
+[info] Time Cost: 2.53 s
+[info] (142/201) T: 295.0 K
+[info] Succeed-Steps / All-Steps : 28452 / 105000
+[info] Current Energy Decay : -0.0013207294496479604 eV/cell
+[info] Current Total Energy : -0.02684810627964797 eV/cell
+[info] Time Cost: 2.43 s
+[info] (143/201) T: 290.0 K
+[info] Succeed-Steps / All-Steps : 26733 / 105000
+[info] Current Energy Decay : -0.0004569725130200077 eV/cell
+[info] Current Total Energy : -0.028093146623020017 eV/cell
+[info] Time Cost: 2.46 s
+[info] (144/201) T: 285.0 K
+[info] Succeed-Steps / All-Steps : 24427 / 105000
+[info] Current Energy Decay : -0.0012745236438800333 eV/cell
+[info] Current Total Energy : -0.02982365267388004 eV/cell
+[info] Time Cost: 2.45 s
+[info] (145/201) T: 280.0 K
+[info] Succeed-Steps / All-Steps : 22198 / 105000
+[info] Current Energy Decay : -0.001272110742602058 eV/cell
+[info] Current Total Energy : -0.031868959082602066 eV/cell
+[info] Time Cost: 2.46 s
+[info] (146/201) T: 275.0 K
+[info] Succeed-Steps / All-Steps : 19841 / 105000
+[info] Current Energy Decay : -0.0010414552537680191 eV/cell
+[info] Current Total Energy : -0.033502788993768025 eV/cell
+[info] Time Cost: 2.42 s
+[info] (147/201) T: 270.0 K
+[info] Succeed-Steps / All-Steps : 18220 / 105000
+[info] Current Energy Decay : -0.000961176941704023 eV/cell
+[info] Current Total Energy : -0.035267708301704025 eV/cell
+[info] Time Cost: 2.47 s
+[info] (148/201) T: 265.0 K
+[info] Succeed-Steps / All-Steps : 16385 / 105000
+[info] Current Energy Decay : -0.001228701664934049 eV/cell
+[info] Current Total Energy : -0.036940026334934054 eV/cell
+[info] Time Cost: 2.46 s
+[info] (149/201) T: 260.0 K
+[info] Succeed-Steps / All-Steps : 14755 / 105000
+[info] Current Energy Decay : -0.0010569607001100299 eV/cell
+[info] Current Total Energy : -0.03862955614011003 eV/cell
+[info] Time Cost: 2.46 s
+[info] (150/201) T: 255.0 K
+[info] Succeed-Steps / All-Steps : 13190 / 105000
+[info] Current Energy Decay : -0.000548386946329968 eV/cell
+[info] Current Total Energy : -0.04027478448632997 eV/cell
+[info] Time Cost: 2.51 s
+[info] (151/201) T: 250.0 K
+[info] Succeed-Steps / All-Steps : 11712 / 105000
+[info] Current Energy Decay : -0.0013509759033179915 eV/cell
+[info] Current Total Energy : -0.04175244574331799 eV/cell
+[info] Time Cost: 2.53 s
+[info] (152/201) T: 245.0 K
+[info] Succeed-Steps / All-Steps : 10634 / 105000
+[info] Current Energy Decay : -0.0005508622114299735 eV/cell
+[info] Current Total Energy : -0.04273323707142997 eV/cell
+[info] Time Cost: 2.46 s
+[info] (153/201) T: 240.0 K
+[info] Succeed-Steps / All-Steps : 9887 / 105000
+[info] Current Energy Decay : -0.0008789859247900062 eV/cell
+[info] Current Total Energy : -0.04383287198479 eV/cell
+[info] Time Cost: 2.48 s
+[info] (154/201) T: 235.0 K
+[info] Succeed-Steps / All-Steps : 8697 / 105000
+[info] Current Energy Decay : -0.0007154756986180445 eV/cell
+[info] Current Total Energy : -0.044945569868618036 eV/cell
+[info] Time Cost: 2.51 s
+[info] (155/201) T: 230.0 K
+[info] Succeed-Steps / All-Steps : 8093 / 105000
+[info] Current Energy Decay : -0.0006820634773239615 eV/cell
+[info] Current Total Energy : -0.04586368812732395 eV/cell
+[info] Time Cost: 2.51 s
+[info] (156/201) T: 225.0 K
+[info] Succeed-Steps / All-Steps : 7387 / 105000
+[info] Current Energy Decay : -0.0006912811073859731 eV/cell
+[info] Current Total Energy : -0.046959450697385954 eV/cell
+[info] Time Cost: 2.5 s
+[info] (157/201) T: 220.0 K
+[info] Succeed-Steps / All-Steps : 6159 / 105000
+[info] Current Energy Decay : -0.0009010935782260212 eV/cell
+[info] Current Total Energy : -0.048323315338226 eV/cell
+[info] Time Cost: 2.48 s
+[info] (158/201) T: 215.0 K
+[info] Succeed-Steps / All-Steps : 5571 / 105000
+[info] Current Energy Decay : -0.0003291118906219991 eV/cell
+[info] Current Total Energy : -0.04922684882062198 eV/cell
+[info] Time Cost: 2.5 s
+[info] (159/201) T: 210.0 K
+[info] Succeed-Steps / All-Steps : 4754 / 105000
+[info] Current Energy Decay : -0.00040077113673000895 eV/cell
+[info] Current Total Energy : -0.05027575558672999 eV/cell
+[info] Time Cost: 2.52 s
+[info] (160/201) T: 205.0 K
+[info] Succeed-Steps / All-Steps : 4086 / 105000
+[info] Current Energy Decay : -0.0005302088566059901 eV/cell
+[info] Current Total Energy : -0.05116706061660597 eV/cell
+[info] Time Cost: 2.48 s
+[info] (161/201) T: 200.0 K
+[info] Succeed-Steps / All-Steps : 3708 / 105000
+[info] Current Energy Decay : -0.00021427823483599672 eV/cell
+[info] Current Total Energy : -0.05190874326483597 eV/cell
+[info] Time Cost: 2.5 s
+[info] (162/201) T: 195.0 K
+[info] Succeed-Steps / All-Steps : 3574 / 105000
+[info] Current Energy Decay : -0.00027724897898000737 eV/cell
+[info] Current Total Energy : -0.052119586988979984 eV/cell
+[info] Time Cost: 2.44 s
+[info] (163/201) T: 190.0 K
+[info] Succeed-Steps / All-Steps : 2956 / 105000
+[info] Current Energy Decay : -0.0004968326391679974 eV/cell
+[info] Current Total Energy : -0.05296602349916797 eV/cell
+[info] Time Cost: 2.49 s
+[info] (164/201) T: 185.0 K
+[info] Succeed-Steps / All-Steps : 2394 / 105000
+[info] Current Energy Decay : -0.00031115753914599787 eV/cell
+[info] Current Total Energy : -0.05361615219914597 eV/cell
+[info] Time Cost: 2.5 s
+[info] (165/201) T: 180.0 K
+[info] Succeed-Steps / All-Steps : 2281 / 105000
+[info] Current Energy Decay : -7.363881526200033e-5 eV/cell
+[info] Current Total Energy : -0.05402477410526197 eV/cell
+[info] Time Cost: 2.48 s
+[info] (166/201) T: 175.0 K
+[info] Succeed-Steps / All-Steps : 1801 / 105000
+[info] Current Energy Decay : -0.0004386484790940014 eV/cell
+[info] Current Total Energy : -0.054611593239093974 eV/cell
+[info] Time Cost: 2.49 s
+[info] (167/201) T: 170.0 K
+[info] Succeed-Steps / All-Steps : 1547 / 105000
+[info] Current Energy Decay : -0.00018150251028199965 eV/cell
+[info] Current Total Energy : -0.05507452439028197 eV/cell
+[info] Time Cost: 2.5 s
+[info] (168/201) T: 165.0 K
+[info] Succeed-Steps / All-Steps : 1359 / 105000
+[info] Current Energy Decay : -0.00015299324266400082 eV/cell
+[info] Current Total Energy : -0.05532890256266398 eV/cell
+[info] Time Cost: 2.51 s
+[info] (169/201) T: 160.0 K
+[info] Succeed-Steps / All-Steps : 1107 / 105000
+[info] Current Energy Decay : -0.00026777289266599694 eV/cell
+[info] Current Total Energy : -0.05572978428266597 eV/cell
+[info] Time Cost: 2.46 s
+[info] (170/201) T: 155.0 K
+[info] Succeed-Steps / All-Steps : 995 / 105000
+[info] Current Energy Decay : -0.00012824637799800143 eV/cell
+[info] Current Total Energy : -0.055847428167997974 eV/cell
+[info] Time Cost: 2.48 s
+[info] (171/201) T: 150.0 K
+[info] Succeed-Steps / All-Steps : 888 / 105000
+[info] Current Energy Decay : -5.3112759786000305e-5 eV/cell
+[info] Current Total Energy : -0.055981245499785975 eV/cell
+[info] Time Cost: 2.48 s
+[info] (172/201) T: 145.0 K
+[info] Succeed-Steps / All-Steps : 712 / 105000
+[info] Current Energy Decay : -0.0001826674921940001 eV/cell
+[info] Current Total Energy : -0.05628117562219397 eV/cell
+[info] Time Cost: 2.45 s
+[info] (173/201) T: 140.0 K
+[info] Succeed-Steps / All-Steps : 622 / 105000
+[info] Current Energy Decay : -0.0001565878419300032 eV/cell
+[info] Current Total Energy : -0.05648012007192998 eV/cell
+[info] Time Cost: 2.43 s
+[info] (174/201) T: 135.0 K
+[info] Succeed-Steps / All-Steps : 580 / 105000
+[info] Current Energy Decay : -5.762995786200059e-5 eV/cell
+[info] Current Total Energy : -0.056516176647861974 eV/cell
+[info] Time Cost: 2.46 s
+[info] (175/201) T: 130.0 K
+[info] Succeed-Steps / All-Steps : 461 / 105000
+[info] Current Energy Decay : -0.00010319798103800166 eV/cell
+[info] Current Total Energy : -0.056690329871037975 eV/cell
+[info] Time Cost: 2.47 s
+[info] (176/201) T: 125.0 K
+[info] Succeed-Steps / All-Steps : 370 / 105000
+[info] Current Energy Decay : -0.00014641032335000674 eV/cell
+[info] Current Total Energy : -0.05687820056334998 eV/cell
+[info] Time Cost: 2.48 s
+[info] (177/201) T: 120.0 K
+[info] Succeed-Steps / All-Steps : 295 / 105000
+[info] Current Energy Decay : -7.346843987200068e-5 eV/cell
+[info] Current Total Energy : -0.05702385351987198 eV/cell
+[info] Time Cost: 2.47 s
+[info] (178/201) T: 115.0 K
+[info] Succeed-Steps / All-Steps : 268 / 105000
+[info] Current Energy Decay : -0.0001075679490599948 eV/cell
+[info] Current Total Energy : -0.05716082118905997 eV/cell
+[info] Time Cost: 2.48 s
+[info] (179/201) T: 110.0 K
+[info] Succeed-Steps / All-Steps : 211 / 105000
+[info] Current Energy Decay : -9.743736407800637e-5 eV/cell
+[info] Current Total Energy : -0.057285705064077985 eV/cell
+[info] Time Cost: 2.49 s
+[info] (180/201) T: 105.0 K
+[info] Succeed-Steps / All-Steps : 162 / 105000
+[info] Current Energy Decay : -9.927806121599994e-5 eV/cell
+[info] Current Total Energy : -0.05737112614121598 eV/cell
+[info] Time Cost: 2.47 s
+[info] (181/201) T: 100.0 K
+[info] Succeed-Steps / All-Steps : 107 / 105000
+[info] Current Energy Decay : -3.960488452600147e-5 eV/cell
+[info] Current Total Energy : -0.05747539909452598 eV/cell
+[info] Time Cost: 2.46 s
+[info] (182/201) T: 95.0 K
+[info] Succeed-Steps / All-Steps : 92 / 105000
+[info] Current Energy Decay : -0.00011198613653199697 eV/cell
+[info] Current Total Energy : -0.05761207294653198 eV/cell
+[info] Time Cost: 2.45 s
+[info] (183/201) T: 90.0 K
+[info] Succeed-Steps / All-Steps : 73 / 105000
+[info] Current Energy Decay : -3.0322961864000495e-5 eV/cell
+[info] Current Total Energy : -0.05769435590186398 eV/cell
+[info] Time Cost: 2.47 s
+[info] (184/201) T: 85.0 K
+[info] Succeed-Steps / All-Steps : 27 / 105000
+[info] Current Energy Decay : -1.7738328340000285e-5 eV/cell
+[info] Current Total Energy : -0.05775892238833998 eV/cell
+[info] Time Cost: 2.46 s
+[info] (185/201) T: 80.0 K
+[info] Succeed-Steps / All-Steps : 17 / 105000
+[info] Current Energy Decay : -7.10240352199976e-6 eV/cell
+[info] Current Total Energy : -0.057809364433521984 eV/cell
+[info] Time Cost: 2.49 s
+[info] (186/201) T: 75.0 K
+[info] Succeed-Steps / All-Steps : 9 / 105000
+[info] Current Energy Decay : -7.433510411999743e-6 eV/cell
+[info] Current Total Energy : -0.05783862721041198 eV/cell
+[info] Time Cost: 2.45 s
+[info] (187/201) T: 70.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.46 s
+[info] (188/201) T: 65.0 K
+[info] Succeed-Steps / All-Steps : 1 / 105000
+[info] Current Energy Decay : 5.120905589999877e-6 eV/cell
+[info] Current Total Energy : -0.05784536057440998 eV/cell
+[info] Time Cost: 2.5 s
+[info] (189/201) T: 60.0 K
+[info] Succeed-Steps / All-Steps : 2 / 105000
+[info] Current Energy Decay : -6.818230229999787e-6 eV/cell
+[info] Current Total Energy : -0.057847655820229986 eV/cell
+[info] Time Cost: 2.47 s
+[info] (190/201) T: 55.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.49 s
+[info] (191/201) T: 50.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.47 s
+[info] (192/201) T: 45.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.49 s
+[info] (193/201) T: 40.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.48 s
+[info] (194/201) T: 35.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.48 s
+[info] (195/201) T: 30.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.48 s
+[info] (196/201) T: 25.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.47 s
+[info] (197/201) T: 20.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.48 s
+[info] (198/201) T: 15.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.49 s
+[info] (199/201) T: 10.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.49 s
+[info] (200/201) T: 5.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.51 s
+[info] (201/201) T: 0.0 K
+[info] Succeed-Steps / All-Steps : 0 / 105000
+[info] Current Energy Decay : 0.0 eV/cell
+[info] Current Total Energy : -0.057850481479999986 eV/cell
+[info] Time Cost: 2.46 s
