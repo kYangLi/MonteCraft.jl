@@ -61,7 +61,8 @@ function evoluate_one_step_under_T(
     pattern::PatternData, T::Float64, config::Dict
 ):: Tuple{PatternData, Float64, Bool}
     states_quantity = config["energy"]["_states_quantity"]
-    coord = random_select_cell_without_dead(pattern)
+    dead_cell_idx = config["energy"]["_dead_cell_idx"]
+    coord = random_select_cell_without_dead(pattern, dead_cell_idx)
     new_state = random_select_new_state(states_quantity, pattern[coord...])
     δ_energy = calc_δ_energy(pattern, coord, new_state, config)
     # Decided accept the new pattern or not
@@ -82,10 +83,12 @@ end
 
 """
 """
-function random_select_cell_without_dead(pattern::PatternData)::Tuple
+function random_select_cell_without_dead(
+    pattern::PatternData, dead_cell_idx::Int
+)::Tuple
     while true
         coord = random_select_cell(size(pattern))
-        if DEAD_CELL_IDX != pattern[coord...]
+        if dead_cell_idx != pattern[coord...]
             return coord
         end
     end
@@ -121,12 +124,12 @@ function calc_nearest_neighbors_energy(
     old_state = pattern[coord...]
     nearest_coords = get_nearby_coord(coord, NORM_NN, size(pattern))
     nearest_neighbors_states = map(x -> pattern[x...], nearest_coords)
-    available_states = config["energy"]["available_states"]
+    full_states = config["energy"]["_full_states"]
     J1 = config["energy"]["Js"][1]
     # Get state vectors
-    old_state_vec = available_states[old_state,:]
-    new_state_vec = available_states[new_state,:]
-    nn_states_vecs = available_states[nearest_neighbors_states,:]
+    old_state_vec = full_states[old_state,:]
+    new_state_vec = full_states[new_state,:]
+    nn_states_vecs = full_states[nearest_neighbors_states,:]
     # Calc the energy energy change
     state_vec_change = new_state_vec - old_state_vec
     δ_energy = J1 * sum(nn_states_vecs * state_vec_change)
@@ -160,7 +163,8 @@ function calc_nearest_dead_neighbor_energy(
     available_states = config["energy"]["available_states"]
     D1 = config["energy"]["Ds"][1]
     #
-    dead_mask = map(x -> DEAD_CELL_IDX == x, nearest_neighbors_states)
+    dead_cell_idx = config["energy"]["_dead_cell_idx"]
+    dead_mask = map(x -> dead_cell_idx == x, nearest_neighbors_states)
     dead_nn_pos_vecs = 
         map(x -> ifelse(x[1], x[2], nothing), zip(dead_mask, NORM_NN))
     dead_nn_pos_vecs = filter(!isnothing, dead_nn_pos_vecs)
@@ -232,8 +236,8 @@ function update_average_pattern(
     average_pattern::PatternStatesData, average_Δ_energy::Float64, 
     pattern::PatternData, Δ_energy::Float64, config::Dict
 )::Tuple{PatternStatesData, Float64}
-    available_states = config["energy"]["available_states"]
-    average_pattern += available_states[pattern,:]
+    full_states = config["energy"]["_full_states"]
+    average_pattern += full_states[pattern,:]
     average_Δ_energy += Δ_energy
     return average_pattern, average_Δ_energy
 end

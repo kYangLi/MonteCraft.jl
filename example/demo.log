@@ -1,336 +1,120 @@
 [ Info | T_1 = 720.0 K
-[ Info | Succeed Steps: 60785 / 80500
-[ Info | Current Energy Decay: -0.312 J1/cell
-[ Info | Current Total Energy: -0.312 J1/cell
-[ Info | Current Average State: [0.006, 0.001, 0.012]
-[ Info | Time Cost: 7.63 s
+[ Info | Succeed Steps: 60306 / 80500
+[ Info | Current Energy Decay: -0.32 J1/cell
+[ Info | Current Total Energy: -0.32 J1/cell
+[ Info | Current Average State: [-0.006, 0.016, 0.007]
+[ Info | Time Cost: 8.69 s
 [ Info | 
 [ Info | T_2 = 705.0 K
-[ Info | Succeed Steps: 59403 / 80500
-[ Info | Current Energy Decay: -0.01 J1/cell
+[ Info | Succeed Steps: 59754 / 80500
+[ Info | Current Energy Decay: 0.018 J1/cell
 [ Info | Current Total Energy: -0.346 J1/cell
-[ Info | Current Average State: [0.003, 0.002, 0.011]
-[ Info | Time Cost: 1.18 s
+[ Info | Current Average State: [-0.017, -0.001, 0.008]
+[ Info | Time Cost: 1.92 s
 [ Info | 
 [ Info | T_3 = 690.0 K
-[ Info | Succeed Steps: 59061 / 80500
-[ Info | Current Energy Decay: -0.017 J1/cell
+[ Info | Succeed Steps: 59118 / 80500
+[ Info | Current Energy Decay: -0.015 J1/cell
 [ Info | Current Total Energy: -0.348 J1/cell
-[ Info | Current Average State: [-0.015, -0.008, 0.021]
-[ Info | Time Cost: 1.19 s
+[ Info | Current Average State: [0.014, 0.009, -0.008]
+[ Info | Time Cost: 2.0 s
 [ Info | 
 [ Info | T_4 = 675.0 K
-[ Info | Succeed Steps: 58542 / 80500
-[ Info | Current Energy Decay: -0.028 J1/cell
-[ Info | Current Total Energy: -0.362 J1/cell
-[ Info | Current Average State: [-0.001, -0.013, 0.022]
-[ Info | Time Cost: 1.16 s
+[ Info | Succeed Steps: 58489 / 80500
+[ Info | Current Energy Decay: -0.004 J1/cell
+[ Info | Current Total Energy: -0.371 J1/cell
+[ Info | Current Average State: [0.016, 0.007, 0.014]
+[ Info | Time Cost: 1.94 s
 [ Info | 
 [ Info | T_5 = 660.0 K
-[ Info | Succeed Steps: 58294 / 80500
-[ Info | Current Energy Decay: 0.005 J1/cell
-[ Info | Current Total Energy: -0.372 J1/cell
-[ Info | Current Average State: [0.021, 0.011, 0.008]
-[ Info | Time Cost: 1.21 s
+[ Info | Succeed Steps: 58107 / 80500
+[ Info | Current Energy Decay: -0.021 J1/cell
+[ Info | Current Total Energy: -0.366 J1/cell
+[ Info | Current Average State: [0.008, 0.015, -0.007]
+[ Info | Time Cost: 1.93 s
 [ Info | 
 [ Info | T_6 = 645.0 K
-[ Info | Succeed Steps: 57839 / 80500
-[ Info | Current Energy Decay: -0.017 J1/cell
-[ Info | Current Total Energy: -0.379 J1/cell
-[ Info | Current Average State: [0.019, 0.007, 0.001]
-[ Info | Time Cost: 1.18 s
+[ Info | Succeed Steps: 58041 / 80500
+[ Info | Current Energy Decay: 0.0 J1/cell
+[ Info | Current Total Energy: -0.371 J1/cell
+[ Info | Current Average State: [0.002, 0.02, 0.013]
+[ Info | Time Cost: 1.99 s
 [ Info | 
 [ Info | T_7 = 630.0 K
-[ Info | Succeed Steps: 56646 / 80500
-[ Info | Current Energy Decay: -0.001 J1/cell
-[ Info | Current Total Energy: -0.396 J1/cell
-[ Info | Current Average State: [0.002, 0.007, 0.002]
-[ Info | Time Cost: 1.15 s
+[ Info | Succeed Steps: 56814 / 80500
+[ Info | Current Energy Decay: -0.026 J1/cell
+[ Info | Current Total Energy: -0.389 J1/cell
+[ Info | Current Average State: [-0.009, 0.013, 0.015]
+[ Info | Time Cost: 1.99 s
 [ Info | 
 [ Info | T_8 = 615.0 K
-[ Info | Succeed Steps: 56424 / 80500
-[ Info | Current Energy Decay: -0.004 J1/cell
+[ Info | Succeed Steps: 56473 / 80500
+[ Info | Current Energy Decay: -0.002 J1/cell
 [ Info | Current Total Energy: -0.402 J1/cell
-[ Info | Current Average State: [0.005, 0.009, -0.009]
-[ Info | Time Cost: 1.18 s
+[ Info | Current Average State: [0.004, 0.003, 0.007]
+[ Info | Time Cost: 1.99 s
 [ Info | 
 [ Info | T_9 = 600.0 K
-[ Info | Succeed Steps: 55725 / 80500
-[ Info | Current Energy Decay: -0.011 J1/cell
+[ Info | Succeed Steps: 55985 / 80500
+[ Info | Current Energy Decay: -0.021 J1/cell
 [ Info | Current Total Energy: -0.411 J1/cell
-[ Info | Current Average State: [-0.023, -0.004, 0.001]
-[ Info | Time Cost: 1.15 s
+[ Info | Current Average State: [-0.012, 0.002, -0.01]
+[ Info | Time Cost: 2.02 s
 [ Info | 
 [ Info | T_10 = 585.0 K
-[ Info | Succeed Steps: 55415 / 80500
-[ Info | Current Energy Decay: 0.005 J1/cell
-[ Info | Current Total Energy: -0.414 J1/cell
-[ Info | Current Average State: [0.012, 0.008, 0.018]
-[ Info | Time Cost: 1.14 s
+[ Info | Succeed Steps: 54795 / 80500
+[ Info | Current Energy Decay: -0.013 J1/cell
+[ Info | Current Total Energy: -0.428 J1/cell
+[ Info | Current Average State: [-0.003, 0.021, 0.009]
+[ Info | Time Cost: 1.99 s
 [ Info | 
 [ Info | T_11 = 570.0 K
-[ Info | Succeed Steps: 54842 / 80500
-[ Info | Current Energy Decay: -0.019 J1/cell
-[ Info | Current Total Energy: -0.43 J1/cell
-[ Info | Current Average State: [-0.0, 0.017, 0.0]
-[ Info | Time Cost: 1.1 s
+[ Info | Succeed Steps: 54519 / 80500
+[ Info | Current Energy Decay: 0.005 J1/cell
+[ Info | Current Total Energy: -0.437 J1/cell
+[ Info | Current Average State: [-0.004, -0.011, -0.028]
+[ Info | Time Cost: 2.01 s
 [ Info | 
 [ Info | T_12 = 555.0 K
-[ Info | Succeed Steps: 54106 / 80500
-[ Info | Current Energy Decay: -0.001 J1/cell
-[ Info | Current Total Energy: -0.441 J1/cell
-[ Info | Current Average State: [-0.018, 0.005, 0.003]
-[ Info | Time Cost: 1.14 s
+[ Info | Succeed Steps: 54286 / 80500
+[ Info | Current Energy Decay: -0.006 J1/cell
+[ Info | Current Total Energy: -0.437 J1/cell
+[ Info | Current Average State: [-0.005, 0.008, -0.003]
+[ Info | Time Cost: 1.98 s
 [ Info | 
 [ Info | T_13 = 540.0 K
-[ Info | Succeed Steps: 52983 / 80500
-[ Info | Current Energy Decay: -0.026 J1/cell
-[ Info | Current Total Energy: -0.463 J1/cell
-[ Info | Current Average State: [-0.016, 0.017, -0.003]
-[ Info | Time Cost: 1.12 s
+[ Info | Succeed Steps: 52945 / 80500
+[ Info | Current Energy Decay: -0.029 J1/cell
+[ Info | Current Total Energy: -0.462 J1/cell
+[ Info | Current Average State: [0.024, -0.001, -0.015]
+[ Info | Time Cost: 1.94 s
 [ Info | 
 [ Info | T_14 = 525.0 K
-[ Info | Succeed Steps: 51952 / 80500
-[ Info | Current Energy Decay: -0.008 J1/cell
-[ Info | Current Total Energy: -0.48 J1/cell
-[ Info | Current Average State: [-0.009, 0.001, -0.018]
-[ Info | Time Cost: 1.14 s
+[ Info | Succeed Steps: 52230 / 80500
+[ Info | Current Energy Decay: -0.01 J1/cell
+[ Info | Current Total Energy: -0.477 J1/cell
+[ Info | Current Average State: [-0.002, -0.02, 0.002]
+[ Info | Time Cost: 1.97 s
 [ Info | 
 [ Info | T_15 = 510.0 K
-[ Info | Succeed Steps: 50624 / 80500
-[ Info | Current Energy Decay: -0.013 J1/cell
-[ Info | Current Total Energy: -0.515 J1/cell
-[ Info | Current Average State: [0.015, 0.005, -0.011]
-[ Info | Time Cost: 1.13 s
+[ Info | Succeed Steps: 51575 / 80500
+[ Info | Current Energy Decay: 0.002 J1/cell
+[ Info | Current Total Energy: -0.49 J1/cell
+[ Info | Current Average State: [0.003, 0.003, 0.013]
+[ Info | Time Cost: 1.93 s
 [ Info | 
 [ Info | T_16 = 495.0 K
-[ Info | Succeed Steps: 49752 / 80500
-[ Info | Current Energy Decay: -0.012 J1/cell
-[ Info | Current Total Energy: -0.535 J1/cell
-[ Info | Current Average State: [0.01, 0.013, -0.013]
-[ Info | Time Cost: 1.16 s
+[ Info | Succeed Steps: 50251 / 80500
+[ Info | Current Energy Decay: -0.026 J1/cell
+[ Info | Current Total Energy: -0.515 J1/cell
+[ Info | Current Average State: [-0.011, 0.001, -0.038]
+[ Info | Time Cost: 1.94 s
 [ Info | 
 [ Info | T_17 = 480.0 K
-[ Info | Succeed Steps: 49567 / 80500
-[ Info | Current Energy Decay: -0.01 J1/cell
-[ Info | Current Total Energy: -0.534 J1/cell
-[ Info | Current Average State: [0.013, 0.003, -0.009]
-[ Info | Time Cost: 1.14 s
+[ Info | Succeed Steps: 49526 / 80500
+[ Info | Current Energy Decay: -0.008 J1/cell
+[ Info | Current Total Energy: -0.526 J1/cell
+[ Info | Current Average State: [-0.01, 0.008, -0.049]
+[ Info | Time Cost: 2.02 s
 [ Info | 
 [ Info | T_18 = 465.0 K
-[ Info | Succeed Steps: 48351 / 80500
-[ Info | Current Energy Decay: -0.048 J1/cell
-[ Info | Current Total Energy: -0.552 J1/cell
-[ Info | Current Average State: [0.021, 0.017, 0.014]
-[ Info | Time Cost: 1.17 s
-[ Info | 
-[ Info | T_19 = 450.0 K
-[ Info | Succeed Steps: 47518 / 80500
-[ Info | Current Energy Decay: -0.01 J1/cell
-[ Info | Current Total Energy: -0.572 J1/cell
-[ Info | Current Average State: [0.034, -0.017, -0.012]
-[ Info | Time Cost: 1.17 s
-[ Info | 
-[ Info | T_20 = 435.0 K
-[ Info | Succeed Steps: 46235 / 80500
-[ Info | Current Energy Decay: -0.014 J1/cell
-[ Info | Current Total Energy: -0.591 J1/cell
-[ Info | Current Average State: [0.057, -0.022, 0.001]
-[ Info | Time Cost: 1.18 s
-[ Info | 
-[ Info | T_21 = 420.0 K
-[ Info | Succeed Steps: 44667 / 80500
-[ Info | Current Energy Decay: -0.024 J1/cell
-[ Info | Current Total Energy: -0.64 J1/cell
-[ Info | Current Average State: [-0.016, 0.003, 0.02]
-[ Info | Time Cost: 1.23 s
-[ Info | 
-[ Info | T_22 = 405.0 K
-[ Info | Succeed Steps: 43095 / 80500
-[ Info | Current Energy Decay: -0.022 J1/cell
-[ Info | Current Total Energy: -0.679 J1/cell
-[ Info | Current Average State: [-0.025, -0.006, 0.008]
-[ Info | Time Cost: 1.18 s
-[ Info | 
-[ Info | T_23 = 390.0 K
-[ Info | Succeed Steps: 41529 / 80500
-[ Info | Current Energy Decay: -0.021 J1/cell
-[ Info | Current Total Energy: -0.699 J1/cell
-[ Info | Current Average State: [-0.024, -0.037, -0.029]
-[ Info | Time Cost: 1.12 s
-[ Info | 
-[ Info | T_24 = 375.0 K
-[ Info | Succeed Steps: 40040 / 80500
-[ Info | Current Energy Decay: -0.049 J1/cell
-[ Info | Current Total Energy: -0.741 J1/cell
-[ Info | Current Average State: [-0.013, -0.03, -0.009]
-[ Info | Time Cost: 1.15 s
-[ Info | 
-[ Info | T_25 = 360.0 K
-[ Info | Succeed Steps: 37891 / 80500
-[ Info | Current Energy Decay: -0.025 J1/cell
-[ Info | Current Total Energy: -0.802 J1/cell
-[ Info | Current Average State: [0.01, -0.072, -0.023]
-[ Info | Time Cost: 1.14 s
-[ Info | 
-[ Info | T_26 = 345.0 K
-[ Info | Succeed Steps: 35592 / 80500
-[ Info | Current Energy Decay: -0.051 J1/cell
-[ Info | Current Total Energy: -0.869 J1/cell
-[ Info | Current Average State: [0.003, -0.103, 0.011]
-[ Info | Time Cost: 1.15 s
-[ Info | 
-[ Info | T_27 = 330.0 K
-[ Info | Succeed Steps: 33584 / 80500
-[ Info | Current Energy Decay: -0.054 J1/cell
-[ Info | Current Total Energy: -0.92 J1/cell
-[ Info | Current Average State: [0.031, -0.111, 0.003]
-[ Info | Time Cost: 1.2 s
-[ Info | 
-[ Info | T_28 = 315.0 K
-[ Info | Succeed Steps: 31079 / 80500
-[ Info | Current Energy Decay: -0.064 J1/cell
-[ Info | Current Total Energy: -0.992 J1/cell
-[ Info | Current Average State: [0.082, -0.129, -0.004]
-[ Info | Time Cost: 1.22 s
-[ Info | 
-[ Info | T_29 = 300.0 K
-[ Info | Succeed Steps: 28782 / 80500
-[ Info | Current Energy Decay: -0.06 J1/cell
-[ Info | Current Total Energy: -1.073 J1/cell
-[ Info | Current Average State: [0.136, -0.189, -0.007]
-[ Info | Time Cost: 1.19 s
-[ Info | 
-[ Info | T_30 = 285.0 K
-[ Info | Succeed Steps: 24968 / 80500
-[ Info | Current Energy Decay: -0.119 J1/cell
-[ Info | Current Total Energy: -1.214 J1/cell
-[ Info | Current Average State: [0.204, -0.235, 0.007]
-[ Info | Time Cost: 1.13 s
-[ Info | 
-[ Info | T_31 = 270.0 K
-[ Info | Succeed Steps: 20839 / 80500
-[ Info | Current Energy Decay: -0.107 J1/cell
-[ Info | Current Total Energy: -1.407 J1/cell
-[ Info | Current Average State: [0.247, -0.299, 0.013]
-[ Info | Time Cost: 1.13 s
-[ Info | 
-[ Info | T_32 = 255.0 K
-[ Info | Succeed Steps: 16842 / 80500
-[ Info | Current Energy Decay: -0.131 J1/cell
-[ Info | Current Total Energy: -1.589 J1/cell
-[ Info | Current Average State: [0.296, -0.376, 0.026]
-[ Info | Time Cost: 1.14 s
-[ Info | 
-[ Info | T_33 = 240.0 K
-[ Info | Succeed Steps: 13070 / 80500
-[ Info | Current Energy Decay: -0.106 J1/cell
-[ Info | Current Total Energy: -1.784 J1/cell
-[ Info | Current Average State: [0.353, -0.454, 0.055]
-[ Info | Time Cost: 1.16 s
-[ Info | 
-[ Info | T_34 = 225.0 K
-[ Info | Succeed Steps: 10430 / 80500
-[ Info | Current Energy Decay: -0.101 J1/cell
-[ Info | Current Total Energy: -1.971 J1/cell
-[ Info | Current Average State: [0.414, -0.533, 0.064]
-[ Info | Time Cost: 1.16 s
-[ Info | 
-[ Info | T_35 = 210.0 K
-[ Info | Succeed Steps: 7864 / 80500
-[ Info | Current Energy Decay: -0.087 J1/cell
-[ Info | Current Total Energy: -2.148 J1/cell
-[ Info | Current Average State: [0.466, -0.596, 0.068]
-[ Info | Time Cost: 1.16 s
-[ Info | 
-[ Info | T_36 = 195.0 K
-[ Info | Succeed Steps: 5965 / 80500
-[ Info | Current Energy Decay: -0.062 J1/cell
-[ Info | Current Total Energy: -2.292 J1/cell
-[ Info | Current Average State: [0.52, -0.645, 0.088]
-[ Info | Time Cost: 1.12 s
-[ Info | 
-[ Info | T_37 = 180.0 K
-[ Info | Succeed Steps: 4678 / 80500
-[ Info | Current Energy Decay: -0.08 J1/cell
-[ Info | Current Total Energy: -2.4 J1/cell
-[ Info | Current Average State: [0.553, -0.682, 0.084]
-[ Info | Time Cost: 1.09 s
-[ Info | 
-[ Info | T_38 = 165.0 K
-[ Info | Succeed Steps: 3526 / 80500
-[ Info | Current Energy Decay: -0.052 J1/cell
-[ Info | Current Total Energy: -2.502 J1/cell
-[ Info | Current Average State: [0.579, -0.715, 0.086]
-[ Info | Time Cost: 1.15 s
-[ Info | 
-[ Info | T_39 = 150.0 K
-[ Info | Succeed Steps: 2729 / 80500
-[ Info | Current Energy Decay: -0.046 J1/cell
-[ Info | Current Total Energy: -2.586 J1/cell
-[ Info | Current Average State: [0.604, -0.743, 0.093]
-[ Info | Time Cost: 1.11 s
-[ Info | 
-[ Info | T_40 = 135.0 K
-[ Info | Succeed Steps: 2037 / 80500
-[ Info | Current Energy Decay: -0.026 J1/cell
-[ Info | Current Total Energy: -2.643 J1/cell
-[ Info | Current Average State: [0.629, -0.77, 0.096]
-[ Info | Time Cost: 1.09 s
-[ Info | 
-[ Info | T_41 = 120.0 K
-[ Info | Succeed Steps: 1645 / 80500
-[ Info | Current Energy Decay: -0.022 J1/cell
-[ Info | Current Total Energy: -2.687 J1/cell
-[ Info | Current Average State: [0.645, -0.791, 0.088]
-[ Info | Time Cost: 1.09 s
-[ Info | 
-[ Info | T_42 = 105.0 K
-[ Info | Succeed Steps: 1238 / 80500
-[ Info | Current Energy Decay: -0.02 J1/cell
-[ Info | Current Total Energy: -2.728 J1/cell
-[ Info | Current Average State: [0.673, -0.816, 0.084]
-[ Info | Time Cost: 1.11 s
-[ Info | 
-[ Info | T_43 = 90.0 K
-[ Info | Succeed Steps: 1015 / 80500
-[ Info | Current Energy Decay: -0.012 J1/cell
-[ Info | Current Total Energy: -2.753 J1/cell
-[ Info | Current Average State: [0.7, -0.837, 0.088]
-[ Info | Time Cost: 1.11 s
-[ Info | 
-[ Info | T_44 = 75.0 K
-[ Info | Succeed Steps: 825 / 80500
-[ Info | Current Energy Decay: -0.012 J1/cell
-[ Info | Current Total Energy: -2.772 J1/cell
-[ Info | Current Average State: [0.725, -0.861, 0.092]
-[ Info | Time Cost: 1.18 s
-[ Info | 
-[ Info | T_45 = 60.0 K
-[ Info | Succeed Steps: 739 / 80500
-[ Info | Current Energy Decay: -0.007 J1/cell
-[ Info | Current Total Energy: -2.788 J1/cell
-[ Info | Current Average State: [0.745, -0.877, 0.097]
-[ Info | Time Cost: 1.17 s
-[ Info | 
-[ Info | T_46 = 45.0 K
-[ Info | Succeed Steps: 659 / 80500
-[ Info | Current Energy Decay: -0.007 J1/cell
-[ Info | Current Total Energy: -2.801 J1/cell
-[ Info | Current Average State: [0.761, -0.899, 0.095]
-[ Info | Time Cost: 1.13 s
-[ Info | 
-[ Info | T_47 = 30.0 K
-[ Info | Succeed Steps: 660 / 80500
-[ Info | Current Energy Decay: -0.006 J1/cell
-[ Info | Current Total Energy: -2.815 J1/cell
-[ Info | Current Average State: [0.779, -0.92, 0.094]
-[ Info | Time Cost: 1.19 s
-[ Info | 
-[ Info | T_48 = 15.0 K
-[ Info | Succeed Steps: 501 / 80500
-[ Info | Current Energy Decay: -0.007 J1/cell
-[ Info | Current Total Energy: -2.829 J1/cell
-[ Info | Current Average State: [0.793, -0.943, 0.09]
-[ Info | Time Cost: 1.11 s
-[ Info | 

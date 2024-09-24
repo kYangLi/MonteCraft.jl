@@ -1,5 +1,5 @@
 export PatternData, PatternStatesData
-export K_B, NEAREST_NEIGHBORS, DEAD_CELL_IDX
+export K_B, NEAREST_NEIGHBORS
 
 # The necessary data types
 const PatternData = Array{Int, 3}
@@ -14,7 +14,6 @@ const K_B = 8.61733034E-5 # eV/K
 const NEAREST_NEIGHBORS = [
     [1,0,0], [-1,0,0], [0,1,0], [0,-1,0], [0,0,1], [0,0,-1]
 ]
-const DEAD_CELL_IDX = -4242
 
 
 # # Filesystem

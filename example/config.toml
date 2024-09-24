@@ -12,8 +12,8 @@ x_size = 20
 y_size = 20
 z_size = 20
 init_mode = "random" # ["random", "zero"]
-dead_cell_quantity = 0
-dead_cell_periodic_size = [10, 10, 10]
+dead_cell_quantity = 1
+dead_cell_periodic_unit = [20, 20, 20]
 
 [evolution]
 steps_each_temperature = 80000
@@ -28,4 +28,5 @@ available_states = [
     [1, 1, 1], [-1, 1, 1], [1,-1, 1], [1, 1, -1],
     [-1,-1,1], [-1, 1,-1], [1,-1,-1], [-1,-1,-1]
 ]
+daed_state = [0, 0, 0]
 

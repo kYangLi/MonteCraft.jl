@@ -105,9 +105,10 @@ end
 """
 function set_dead_pattern(pattern::PatternData, config::Dict)
     # TODO: periodic dead pattern order and opt this function
+    dead_cell_idx = config["energy"]["_dead_cell_idx"]
     for _ in 1:config["playground"]["dead_cell_quantity"]
-        coord = random_select_cell_without_dead(pattern)
-        pattern = update_pattern(pattern, coord, DEAD_CELL_IDX)
+        coord = random_select_cell_without_dead(pattern, dead_cell_idx)
+        pattern = update_pattern(pattern, coord, dead_cell_idx)
     end
     return pattern
 end

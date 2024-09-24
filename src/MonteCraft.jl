@@ -11,13 +11,14 @@ module MonteCraft
 
     include("craft.jl")
 
-    #
+    # Export useful objects
     using .CraftData
     export MonteCraftData
 
     using .Craft
     export evolution
 
+    # Init function
     function __init__()
         decorate_logging(; min_level=Info)
     end

@@ -1,12 +1,12 @@
 module Craft
 
-
 using ..MonteCraft
 using ..MonteCraft.CraftCore: evoluate_under_T
 using ..MonteCraft.CraftData: MonteCraftData, calc_average_state
 using ..MonteCraft.CraftObserve: save_pattern
 
 export evolution
+
 
 """
 Evolute the pattern from one temperature to the end.
@@ -28,9 +28,9 @@ function evolution(mc_data::MonteCraftData)
         mc_data.average_patterns[i_T] = average_pattern
         mc_data.average_states[i_T] = calc_average_state(average_pattern)
         mc_data.succeed_updates[i_T] = succeed_updates
-        mc_data.energy_ref += Δ_energy 
+        mc_data.energy_ref += Δ_energy
         # Output the simulation results
-        logging_necessary_info(mc_data, i_T)
+        logger_for_each_T(mc_data, i_T)
         save_pattern(mc_data, i_T)
     end
 end
@@ -38,7 +38,7 @@ end
 
 """
 """
-function logging_necessary_info(mc_data::MonteCraftData, i_T::Int)
+function logger_for_each_T(mc_data::MonteCraftData, i_T::Int)
     succeed_updates = mc_data.succeed_updates[i_T]
     total_steps = 
         mc_data.config["evolution"]["steps_each_temperature"] + 

@@ -14,7 +14,11 @@ end
 """
 """
 function normalize(x)
-    return x / norm(x)
+    norm_x = norm(x)
+    if norm_x < eps()
+        return x
+    end
+    return x / norm_x
 end
 
 
