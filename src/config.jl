@@ -92,7 +92,7 @@ end
 function parse_states_info(config::Dict)
     # Transfer the states_quantity from vec-vec to matrix
     avail_states = config["energy"]["available_states"]
-    dead_state = config["energy"]["daed_state"]
+    dead_state = config["energy"]["dead_state"]
     full_states = [avail_states..., dead_state]
     avail_states = map(x -> normalize(x), avail_states)
     avail_states = vecvec2matrix(avail_states)

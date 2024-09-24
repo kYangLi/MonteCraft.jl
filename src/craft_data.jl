@@ -10,6 +10,7 @@ using ..MonteCraft.MiscTools: linear_sequence, log_sequence
 
 export MonteCraftData, calc_average_state
 
+
 mutable struct MonteCraftData
     config::Dict{String, Any}
     #
