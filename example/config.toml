@@ -1,24 +1,24 @@
 [random]
-seed = 1370
+seed = 137
 
 [temperature]
-start = 720
-end = 20
+start = 1000
+end = 5
 decay_method = "linear" # ["linear", "log"] 
-decay = -15
+decay = -5
 
 [playground]
-x_size = 20
-y_size = 20
-z_size = 20
+x_size = 50
+y_size = 50
+z_size = 30
 init_mode = "random" # ["random", "zero"]
-dead_cell_quantity = 1
-dead_cell_periodic_unit = [20, 20, 20]
+dead_cell_quantity = 75
+dead_cell_periodic_unit = [10, 10, 10]
 
 [evolution]
-steps_each_temperature = 80000
-steps_observe_interval = 16
-steps_preheat = 500
+steps_each_temperature = 1500000
+steps_observe_interval = 150
+steps_preheat = 5000
 
 [energy]
 Js = [-0.01928778, ]

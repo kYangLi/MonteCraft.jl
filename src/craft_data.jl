@@ -104,11 +104,25 @@ end
 """
 """
 function set_dead_pattern(pattern::PatternData, config::Dict)
-    # TODO: periodic dead pattern order and opt this function
     dead_cell_idx = config["energy"]["_dead_cell_idx"]
-    for _ in 1:config["playground"]["dead_cell_quantity"]
-        coord = random_select_cell_without_dead(pattern, dead_cell_idx)
-        pattern = update_pattern(pattern, coord, dead_cell_idx)
+    N_daed_cell = config["playground"]["_dead_cell_quantity_each_unit"]
+    unit_factors = config["playground"]["_dead_cell_unit_factors"]
+    unit_size = config["playground"]["dead_cell_periodic_unit"]
+    for _ in 1:N_daed_cell
+        source_coord = random_select_cell_without_dead(pattern, dead_cell_idx)
+        source_coord = mod.(source_coord.-1, unit_size).+1 # Move into sub-unit
+        for x_i in 1:unit_factors[1]
+            for y_i in 1:unit_factors[2]
+                for z_i in 1:unit_factors[3]
+                    coord = (
+                        (x_i - 1) * unit_size[1] + source_coord[1],
+                        (y_i - 1) * unit_size[2] + source_coord[2],
+                        (z_i - 1) * unit_size[3] + source_coord[3]
+                    )
+                    pattern = update_pattern(pattern, coord, dead_cell_idx)
+                end
+            end
+        end
     end
     return pattern
 end

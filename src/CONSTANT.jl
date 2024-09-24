@@ -15,14 +15,3 @@ const NEAREST_NEIGHBORS = [
     [1,0,0], [-1,0,0], [0,1,0], [0,-1,0], [0,0,1], [0,0,-1]
 ]
 
-
-# # Filesystem
-# # - Data
-# const PATTERN_FOLDER = "pattern"
-# const PATTERN_PIC_TAG = "pattern"
-# const OBSERVE_FILE = "observe-process.pdf"
-# const DATA_FORMAT = "dat"
-# # - Plot
-# const PLOT_FORMAT = "png"
-# const PLOT_DPI = 300
-

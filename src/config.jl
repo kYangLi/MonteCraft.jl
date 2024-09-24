@@ -6,6 +6,18 @@ using ..MonteCraft.MiscTools: normalize, vecvec2matrix
 
 export read_config
 
+
+"""
+"""
+function save_config(config::Dict, toml_file_path::String)
+    open(toml_file_path, "w") do fio
+        TOML.print(fio, config)
+    end
+end
+
+
+"""
+"""
 function read_config(toml_file_path::String)::Dict
     config = TOML.parsefile(toml_file_path)
     config = parse_pattern_info(config)
@@ -47,14 +59,19 @@ function parse_dead_cell_info(config::Dict)::Dict
     factor_y = y_size ÷ unit_y
     factor_z = z_size ÷ unit_z
     pattern_size = x_size * y_size * z_size
+    factor = factor_x * factor_y * factor_z
+    factors = (factor_x, factor_y, factor_z)
     #
-    if factor_x * unit_x * factor_y * unit_y * factor_z * unit_z < pattern_size
+    if factor * unit_x * unit_y * unit_z < pattern_size
         error("The dead cell periodic unit $(periodic_unit_size) cannot devided the pattern $((x_size, y_size, z_size))!")
     end
     #
-    if 0 != N_dead%(factor_x*factor_y*factor_z)
-        error("The dead cell quantity $N_dead cannot be devided by unit factor $((factor_x, factor_y, factor_z))!")
+    factor = factor_x * factor_y * factor_z
+    if 0 != N_dead%factor
+        error("The dead cell quantity $(N_dead) cannot be devided by unit factor $(factors)!")
     end
+    config["playground"]["_dead_cell_quantity_each_unit"] = N_dead ÷ factor
+    config["playground"]["_dead_cell_unit_factors"] = factors
     return config
 end
 
