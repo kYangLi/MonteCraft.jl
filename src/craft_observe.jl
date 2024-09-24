@@ -11,7 +11,7 @@ function save_pattern(
     average_pattern::PatternStatesData, mc_data::MonteCraftData,
     i_T::Int, T::Float64
 )
-    # TODO
+    # TODO make the save pattern function work!
 end
 
 
