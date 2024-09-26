@@ -4,14 +4,27 @@ using TOML
 
 using ..MonteCraft.MiscTools: normalize, vecvec2matrix
 
-export read_config
+export read_config, save_config
 
 
 """
 """
 function save_config(config::Dict, toml_file_path::String)
+    function convert_tuples_to_vectors(x)
+        if isa(x, Tuple)
+            return [convert_tuples_to_vectors(item) for item in x]
+        elseif isa(x, AbstractMatrix)
+            return [x[i, :] for i in axes(x)[1]]
+        elseif isa(x, AbstractArray)
+            return [convert_tuples_to_vectors(item) for item in x]
+        elseif isa(x, Dict)
+            return Dict(k => convert_tuples_to_vectors(v) for (k, v) in x)
+        else
+            return x
+        end
+    end
     open(toml_file_path, "w") do fio
-        TOML.print(fio, config)
+        TOML.print(fio, convert_tuples_to_vectors(config))
     end
 end
 

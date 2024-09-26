@@ -7,7 +7,6 @@ module MonteCraft
 
     include("craft_core.jl")
     include("craft_data.jl")
-    include("craft_observe.jl")
 
     include("craft.jl")
 

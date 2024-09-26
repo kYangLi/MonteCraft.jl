@@ -3,7 +3,6 @@ module Craft
 using ..MonteCraft
 using ..MonteCraft.CraftCore: evoluate_under_T
 using ..MonteCraft.CraftData: MonteCraftData, calc_average_state
-using ..MonteCraft.CraftObserve: save_pattern
 
 export evolution
 
@@ -31,7 +30,6 @@ function evolution(mc_data::MonteCraftData)
         mc_data.energy_ref += Δ_energy
         # Output the simulation results
         logger_for_each_T(mc_data, i_T)
-        save_pattern(mc_data, i_T)
     end
 end
 

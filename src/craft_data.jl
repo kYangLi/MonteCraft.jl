@@ -2,6 +2,7 @@ module CraftData
 
 using Random
 using Statistics
+using Serialization
 
 using ..MonteCraft
 using ..MonteCraft.Config: read_config
@@ -52,6 +53,23 @@ function MonteCraftData(config_file_path::String)
         average_states, succeed_updates, energy_ref,
         curr_time, curr_time, curr_time
     )
+end
+
+
+"""
+"""
+function save_data(mc_data::MonteCraftData, save_file_path::String)
+    open(save_file_path, "w") do io
+        serialize(io, mc_data)
+    end
+end
+
+"""
+"""
+function load_data(save_file_path::String)::MonteCraftData
+    open(save_file_path, "r") do io
+        return deserialize(io)
+    end
 end
 
 
