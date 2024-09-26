@@ -2,10 +2,10 @@
 seed = 137
 
 [temperature]
-start = 10000
-end = 1
-decay_method = "log" # ["linear", "log"] 
-decay = 0.8
+start = 2500
+end = 10
+decay_method = "linear" # ["linear", "log"] 
+decay = -10
 
 [playground]
 x_size = 40
@@ -13,10 +13,10 @@ y_size = 40
 z_size = 40
 init_mode = "random" # ["random", "zero"]
 dead_cell_quantity = 0
-dead_cell_periodic_unit = [10, 10, 10]
+dead_cell_periodic_unit = [40, 40, 40]
 
 [evolution]
-steps_each_temperature = 1300000
+steps_each_temperature = 2600000
 steps_observe_interval = 13
 steps_preheat = 2000
 

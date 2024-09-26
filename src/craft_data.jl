@@ -9,7 +9,7 @@ using ..MonteCraft.Config: read_config
 using ..MonteCraft.CraftCore: random_select_cell_without_dead, update_pattern
 using ..MonteCraft.MiscTools: linear_sequence, log_sequence
 
-export MonteCraftData, calc_average_state
+export MonteCraftData, save_data, load_data, calc_average_state
 
 
 mutable struct MonteCraftData
