@@ -97,7 +97,9 @@ function get_init_pattern(config::Dict)::PatternData
         error("Unsupported initial mode: $(init_mode). Supported modes are: 'zero' and 'random'")
     end
     # Setup the dead pattern
-    pattern = set_dead_pattern(pattern, config)
+    if config["playground"]["dead_cell_quantity"] > 0
+        pattern = set_dead_pattern(pattern, config)
+    end
     return pattern
 end
 
@@ -105,6 +107,7 @@ end
 """
 """
 function set_dead_pattern(pattern::PatternData, config::Dict)
+    #
     dead_cell_idx = config["energy"]["_dead_cell_idx"]
     N_daed_cell = config["playground"]["_dead_cell_quantity_each_unit"]
     unit_factors = config["playground"]["_dead_cell_unit_factors"]
