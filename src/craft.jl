@@ -2,8 +2,7 @@ module Craft
 
 using ..MonteCraft
 using ..MonteCraft.CraftCore: evoluate_under_T
-using ..MonteCraft.CraftData: MonteCraftData, calc_average_state
-using ..MonteCraft.CraftObserve: save_pattern
+using ..MonteCraft.CraftData: MonteCraftData, calc_average_state, save_data
 
 export evolution
 
@@ -11,7 +10,7 @@ export evolution
 """
 Evolute the pattern from one temperature to the end.
 """
-function evolution(mc_data::MonteCraftData)
+function evolution(mc_data::MonteCraftData, mc_data_save_path::String="")
     mc_data.energy_ref = 0.0
     # Loop for each annealing
     for (i_T, T) in enumerate(mc_data.Ts)
@@ -31,7 +30,9 @@ function evolution(mc_data::MonteCraftData)
         mc_data.energy_ref += Δ_energy
         # Output the simulation results
         logger_for_each_T(mc_data, i_T)
-        save_pattern(mc_data, i_T)
+        if mc_data_save_path != ""
+            save_data(mc_data, mc_data_save_path)
+        end
     end
 end
 
@@ -71,6 +72,7 @@ function _print_time_cost(mc_data::MonteCraftData)
     cost_time = round(cost_time, digits=2)
     @info ("Time Cost: $(cost_time) s")
     mc_data.last_time = curr_time
+    mc_data.end_time = curr_time
 end
 
 
